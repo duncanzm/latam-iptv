@@ -38,16 +38,33 @@ def dkey(n):
     k=n.lower()
     k=re.sub(r"\b(cr|mx|ar|hd|fhd|uhd|sd|4k|este|oeste|norte|sur|latino|plus|tv|canal)\b","",k)
     return re.sub(r"[^a-z0-9]","",k)
-def strip_q(n):  # quita (720p), [not 24/7], [geo-blocked] sin importar mayus
-    n=re.sub(r"\s*\(\d+p\)","",n); n=re.sub(r"\s*\[[^\]]*\]","",n,flags=re.I)
+def strip_q(n):  # quita (720p)/(1080i)/(576p), [not 24/7], [geo-blocked] sin importar mayus
+    n=re.sub(r"\s*\(\d+[ip]\)","",n); n=re.sub(r"\s*\[[^\]]*\]","",n,flags=re.I)
     return n.strip()
+
+# whitelist de canales US nacionales (lo demas en us.m3u son locales/FAST nicho = ruido)
+US_KW=("cnn","fox news","msnbc","cnbc","bloomberg","newsmax","cbs news","abc news",
+       "nbc news","c-span","cspan","weather channel","cheddar","scripps news",
+       "fox business","fox weather","reuters","pbs newshour","accuweather","usa today")
+US_EXACT={"abc","nbc","cbs","fox","the cw","cw","pbs","pbs kids","univision","telemundo",
+          "tudn","usa network","tnt","tbs","amc","syfy","bravo","e!","tlc","hgtv"}
+def us_keep(n):  # True solo si es un canal US nacional reconocible
+    nl=n.lower().strip()
+    if nl in US_EXACT: return True
+    return any(k in nl for k in US_KW)
 
 out=[]
 PAISES={"cr":"Costa Rica","mx":"México","ar":"Argentina","co":"Colombia","cl":"Chile","pe":"Perú","ec":"Ecuador","ve":"Venezuela","es":"España","us":"USA"}
 for cc,pais in PAISES.items():
-    L=fetch(f"https://raw.githubusercontent.com/Romaxa55/world_ip_tv/master/output/{cc}.m3u").splitlines()
+    # iptv-org: curado, legal, tvg-id correctos, estado etiquetado
+    L=fetch(f"https://iptv-org.github.io/iptv/countries/{cc}.m3u").splitlines()
     for i,l in enumerate(L):
         if l.startswith("#EXTINF") and i+1<len(L) and L[i+1].startswith("http"):
+            if "[Not 24/7]" in l: continue                      # transmiten a ratos = ruido
+            if cc!="cr" and "[Geo-blocked]" in l: continue      # geo-bloqueado de otro pais no corre desde CR
+            if cc=="us" and not us_keep(strip_q(realname(l))): continue                 # solo US nacionales (whitelist)
+            if cc=="us" and re.search(r"\b[WK][A-Z]{2,3}\b",realname(l)): continue       # quita estaciones locales (WBRZ...)
+            if cc=="us" and realname(l).lower().strip().startswith("cbs news ") and "24/7" not in realname(l).lower(): continue  # CBS News regionales
             out.append((0,f"Canales de {pais}",norm(strip_q(realname(l))),L[i+1].strip(),tvgid(l),tvglogo(l)))
 
 CO={"españa":"Canales de España","espana":"Canales de España","costa rica":"Canales de Costa Rica","mexico":"Canales de México","méxico":"Canales de México","peru":"Canales de Perú","perú":"Canales de Perú","colombia":"Canales de Colombia","argentina":"Canales de Argentina","chile":"Canales de Chile","ecuador":"Canales de Ecuador","venezuela":"Canales de Venezuela"}
