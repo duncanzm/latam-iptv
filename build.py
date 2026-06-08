@@ -90,10 +90,10 @@ def etoks(name):
     return frozenset(t for t in s.split() if t and t not in ESTOP)
 EPG_CC=["CR1","MX1","AR1","CO1","CL1","PE1","EC1","ES1"]
 EPG_URLS=[f"https://epgshare01.online/epgshare01/epg_ripper_{c}.xml.gz" for c in EPG_CC]
-exact={}; allchans=[]
+exact={}; allchans=[]; epg_parts=[]
 for url in EPG_URLS:
     try:
-        raw=urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=60,context=ctx).read()
+        raw=urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=90,context=ctx).read()
         xml=gzip.decompress(raw).decode("utf-8","replace")
         for m in re.finditer(r'<channel id="([^"]*)">(.*?)</channel>',xml,re.S):
             cid=m.group(1)
@@ -102,8 +102,17 @@ for url in EPG_URLS:
                 if not t: continue
                 if t not in exact: exact[t]=cid
                 allchans.append((t,cid))
+        # guardar el cuerpo (channels+programmes) para el EPG combinado
+        mb=re.search(r"<tv[^>]*>(.*)</tv>",xml,re.S)
+        if mb: epg_parts.append(mb.group(1))
     except Exception as e: print("  EPG !",url[-22:],e)
 print("EPG index:",len(exact),"exact /",len(allchans),"total")
+# escribir EPG combinado (1 solo archivo gzip) -> TiviMate usa 1 sola fuente = cobertura total
+with gzip.open("latam-epg.xml.gz","wt",encoding="utf-8") as ef:
+    ef.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv>\n')
+    for p in epg_parts: ef.write(p)
+    ef.write("\n</tv>\n")
+print("EPG combinado: latam-epg.xml.gz (",len(epg_parts),"fuentes )")
 def epgmatch(name):
     nt=etoks(name)
     if not nt: return ""
@@ -116,7 +125,8 @@ def epgmatch(name):
             if ex<bx: bx=ex;best=cid
     return best
 PREMIUM_EPG="http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
-HEADER=",".join(EPG_URLS+[PREMIUM_EPG])
+COMBINED_EPG="https://raw.githubusercontent.com/duncanzm/latam-iptv/main/latam-epg.xml.gz"
+HEADER=f"{COMBINED_EPG},{PREMIUM_EPG}"   # 1 EPG combinado (8 paises) + premium
 out.sort(key=lambda x:(x[0], x[1], x[2].lower()))
 seen=set(); f=open("latam.m3u","w"); f.write(f'#EXTM3U url-tvg="{HEADER}"\n'); w=0; epgn=0
 for o,g,n,u,tid,logo in out:

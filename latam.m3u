@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/duncanzm/latam-iptv/main/latam-epg.xml.gz,http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="Canales de Argentina",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="Canales de Argentina",5TV Corrientes
