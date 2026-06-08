@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import urllib.request, re, ssl
+import urllib.request, re, ssl, gzip, unicodedata
 ctx=ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
 UA={"User-Agent":"Lavf/60.3.100"}
 def fetch(u,t=40):
@@ -82,13 +82,49 @@ for i,l in enumerate(pt):
         nm=norm(clean(realname(l)))
         if nm and 2<=len(nm)<55: out.append((0 if c.startswith("Canales") else ORD[c],c,nm,pt[i+1].strip(),tvgid(l),tvglogo(l)))
 
-EPG="http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
+# ---- EPG matching: asigna tvg-id real cruzando nombres con epgshare01 ----
+def deacc(s): return "".join(c for c in unicodedata.normalize("NFD",s) if unicodedata.category(c)!="Mn")
+ESTOP={"canal","de","costa","rica","mexico","argentina","colombia","chile","peru","ecuador","venezuela","espana","spain","usa","hd","fhd","uhd","sd","tv","the","el","la","los","las","del","y","en","senal","channel","television","tele","est","oeste","norte","sur"}
+def etoks(name):
+    s=deacc(name).lower(); s=re.sub(r"\(.*?\)"," ",s); s=re.sub(r"[^a-z0-9 ]"," ",s)
+    return frozenset(t for t in s.split() if t and t not in ESTOP)
+EPG_CC=["CR1","MX1","AR1","CO1","CL1","PE1","EC1","ES1"]
+EPG_URLS=[f"https://epgshare01.online/epgshare01/epg_ripper_{c}.xml.gz" for c in EPG_CC]
+exact={}; allchans=[]
+for url in EPG_URLS:
+    try:
+        raw=urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=60,context=ctx).read()
+        xml=gzip.decompress(raw).decode("utf-8","replace")
+        for m in re.finditer(r'<channel id="([^"]*)">(.*?)</channel>',xml,re.S):
+            cid=m.group(1)
+            for dn in re.findall(r'<display-name[^>]*>([^<]*)',m.group(2)):
+                t=etoks(dn)
+                if not t: continue
+                if t not in exact: exact[t]=cid
+                allchans.append((t,cid))
+    except Exception as e: print("  EPG !",url[-22:],e)
+print("EPG index:",len(exact),"exact /",len(allchans),"total")
+def epgmatch(name):
+    nt=etoks(name)
+    if not nt: return ""
+    if nt in exact: return exact[nt]
+    if len(nt)<2 or not any(not t.isdigit() for t in nt): return ""
+    best="";bx=99
+    for et,cid in allchans:
+        if nt<et:
+            ex=len(et-nt)
+            if ex<bx: bx=ex;best=cid
+    return best
+PREMIUM_EPG="http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
+HEADER=",".join(EPG_URLS+[PREMIUM_EPG])
 out.sort(key=lambda x:(x[0], x[1], x[2].lower()))
-seen=set(); f=open("latam.m3u","w"); f.write(f'#EXTM3U url-tvg="{EPG}"\n'); w=0
+seen=set(); f=open("latam.m3u","w"); f.write(f'#EXTM3U url-tvg="{HEADER}"\n'); w=0; epgn=0
 for o,g,n,u,tid,logo in out:
     kk=(g,dkey(n))
     if kk in seen or not dkey(n): continue
     seen.add(kk)
-    attrs=f'tvg-id="{tid}"' + (f' tvg-logo="{logo}"' if logo else "")
+    eid=epgmatch(n)                       # tvg-id real desde EPG (ignora el original, suele ser basura)
+    if eid: epgn+=1
+    attrs=f'tvg-id="{eid or tid}"' + (f' tvg-logo="{logo}"' if logo else "")
     f.write(f'#EXTINF:-1 {attrs} group-title="{g}",{n}\n{u}\n'); w+=1
-f.close(); print("TOTAL:",w)
+f.close(); print("TOTAL:",w,"| con EPG:",epgn)
