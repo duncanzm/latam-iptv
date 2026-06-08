@@ -1,0 +1,23 @@
+name: Build Latam IPTV
+on:
+  schedule:
+    - cron: '0 9 * * *'   # diario 9:00 UTC (3am CR)
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build playlist
+        run: bash build.sh
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add latam.m3u
+          git commit -m "Update Latam playlist $(date -u +%F)" || { echo "sin cambios"; exit 0; }
+          git push
