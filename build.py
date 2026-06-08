@@ -13,6 +13,12 @@ def fixmoji(s):
 def realname(line): return fixmoji(line.rsplit(",",1)[-1].strip())
 def lastgroup(line):
     m=re.findall(r'group-title="([^"]*)"',line); return m[-1] if m else ""
+def tvgid(line):
+    m=re.search(r'tvg-id="([^"]*)"',line); return m.group(1) if m else ""
+def tvglogo(line):
+    m=re.search(r'tvg-logo="([^"]*)"',line); v=m.group(1) if m else ""
+    return v if v.startswith("http") else ""
+
 
 ACR={"TV","HD","FHD","UHD","4K","ESPN","HBO","TNT","FX","AXN","CNN","USA","CR","MX","AR","UK","NBA","NFL","MLB","UFC","WWE","MTV","HTV","TUDN","DAZN","PBS","CW","AMC","ID","A&E","FOX","NBC","CBS","ABC","RT","DW","BBC","TYC","KMK","RCN","UCR","OPA","GEX","VM","SOY","DIRECTV","PPV","RFTV","TD","FUTV","CDF","GOL","TVE","RTVE","ATV","DGO","GP","F1"}
 CONN={"de","la","el","los","las","del","y","e","o","a","en","the","of","and","por","para","con","vs"}
@@ -42,7 +48,7 @@ for cc,pais in PAISES.items():
     L=fetch(f"https://raw.githubusercontent.com/Romaxa55/world_ip_tv/master/output/{cc}.m3u").splitlines()
     for i,l in enumerate(L):
         if l.startswith("#EXTINF") and i+1<len(L) and L[i+1].startswith("http"):
-            out.append((0,f"Canales de {pais}",norm(strip_q(realname(l))),L[i+1].strip()))
+            out.append((0,f"Canales de {pais}",norm(strip_q(realname(l))),L[i+1].strip(),tvgid(l),tvglogo(l)))
 
 CO={"españa":"Canales de España","espana":"Canales de España","costa rica":"Canales de Costa Rica","mexico":"Canales de México","méxico":"Canales de México","peru":"Canales de Perú","perú":"Canales de Perú","colombia":"Canales de Colombia","argentina":"Canales de Argentina","chile":"Canales de Chile","ecuador":"Canales de Ecuador","venezuela":"Canales de Venezuela"}
 def cat(g,n):
@@ -74,12 +80,15 @@ for i,l in enumerate(pt):
         c=cat(lastgroup(l),realname(l))
         if not c: continue
         nm=norm(clean(realname(l)))
-        if nm and 2<=len(nm)<55: out.append((0 if c.startswith("Canales") else ORD[c],c,nm,pt[i+1].strip()))
+        if nm and 2<=len(nm)<55: out.append((0 if c.startswith("Canales") else ORD[c],c,nm,pt[i+1].strip(),tvgid(l),tvglogo(l)))
 
+EPG="http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
 out.sort(key=lambda x:(x[0], x[1], x[2].lower()))
-seen=set(); f=open("latam.m3u","w"); f.write("#EXTM3U\n"); w=0
-for o,g,n,u in out:
+seen=set(); f=open("latam.m3u","w"); f.write(f'#EXTM3U url-tvg="{EPG}"\n'); w=0
+for o,g,n,u,tid,logo in out:
     kk=(g,dkey(n))
     if kk in seen or not dkey(n): continue
-    seen.add(kk); f.write(f'#EXTINF:-1 group-title="{g}",{n}\n{u}\n'); w+=1
+    seen.add(kk)
+    attrs=f'tvg-id="{tid}"' + (f' tvg-logo="{logo}"' if logo else "")
+    f.write(f'#EXTINF:-1 {attrs} group-title="{g}",{n}\n{u}\n'); w+=1
 f.close(); print("TOTAL:",w)
