@@ -827,8 +827,6 @@ http://92.176.119.180:2095/play/a16j
 http://177.10.184.193:8000/play/a06a/index.m3u8
 #EXTINF:-1 tvg-id="ArabiTV.es@SD" tvg-logo="https://i.ibb.co/9Vp9Ghg/LOGO-WEB-ARABI-TV-3.png" group-title="Canales de España",Arabí TV
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
-#EXTINF:-1 tvg-id="Aragón.TV.es" tvg-logo="https://i.imgur.com/6YSi1zW.png" group-title="Canales de España",Aragon TV
-https://viamotionhsi.netplus.ch/live/eds/aragontv/browser-HLS8/aragontv.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_aragon_tv_2016.png" group-title="Canales de España",Aragon TV 720P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/157784
 #EXTINF:-1 tvg-id="Atrescine.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png" group-title="Canales de España",Atrescine
@@ -1045,8 +1043,6 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/447108
 https://limited39.todostreaming.es/live/salome-livestream.m3u8
 #EXTINF:-1 tvg-id="InteralmeriaTV.es@SD" tvg-logo="https://i.imgur.com/ulSkAjZ.png" group-title="Canales de España",Interalmeria TV
 https://interalmeria.tv/directo/live.m3u8
-#EXTINF:-1 tvg-id="KTO.fr@SD" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="Canales de España",KTO
-https://viamotionhsi.netplus.ch/live/eds/kto/browser-dash/kto.mpd
 #EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Canales de España",La 1
 https://ztnr.rtve.es/ztnr/1688877.m3u8
 #EXTINF:-1 tvg-id="La1Canarias.es@SD" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Canales de España",La 1 Canarias
@@ -1451,8 +1447,8 @@ https://estrellatv-oando.amagi.tv/playlist.m3u8
 http://galileatv.top:8080/deco-20/VumqaPUzpX/288450
 #EXTINF:-1 tvg-id="ExpresaTV.mx@SD" tvg-logo="https://i.imgur.com/kFVVGrg.png" group-title="Canales de México",Expresa TV
 https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal.Foro.TV.mx" tvg-logo="https://i.imgur.com/dDFrONz.png" group-title="Canales de México",Foro TV
-https://channel02-notusa.akamaized.net/hls/live/2023914/event01/index.m3u8
+#EXTINF:-1 tvg-id="Canal.Foro.TV.mx" tvg-logo="http://visualservice.xyz:80/images/38425aa5a05aada202d70bd887ed4471.png" group-title="Canales de México",Foro TV
+http://galileatv.top:8080/deco-20/VumqaPUzpX/109054
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/images/cd30f07c220bf5807fe9fa517c01e4ca.png" group-title="Canales de México",GLITZ
 http://galileatv.top:8080/deco-20/VumqaPUzpX/109053
 #EXTINF:-1 tvg-id="Canal.¡HOLA!.TV.cr" tvg-logo="http://visualservice.xyz:80/images/760fbd16c3ad67b4f93967aba33cd265.png" group-title="Canales de México",Hola TV
@@ -2233,80 +2229,146 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/46328
 http://galileatv.top:8080/deco-20/VumqaPUzpX/768171
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/nrWNyLc.jpg" group-title="Deportes",Óčko Gold
 http://galileatv.top:8080/deco-20/VumqaPUzpX/273879
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Perú vs España
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138708
-#EXTINF:-1 tvg-id="" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Eventos",00 Colombia Atlético Nacional vs Junior
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138688
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMhrbB2fnxlNQnMLa-CNayvWFEOIW5iOfsQ&s_logo.png" group-title="Eventos",00 Uruguay Liverpool vs Cerro Largo
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138689
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 01 Sun vs Liberty
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138696
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 02 Fever vs Mystics
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138697
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 03 Aces vs Storm
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138709
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",05 MLB 10 Athletics vs Brewers
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138710
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",07 MLB 05 Blue Jays vs Phillies
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138698
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/DIYepmY.png" group-title="Eventos",20 Tour Auvergne-rhône-alpes: Stage 2 Ciclismo
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138682
-#EXTINF:-1 tvg-id="" tvg-logo="https://c8.alamy.com/comp/2RFK4FK/baseball-college-league-logo-graphic-design-for-t-shirt-vector-and-illustration-2RFK4FK.jpg" group-title="Eventos",30 Beisbol Collegiate League Bristol vs Newport
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138691
-#EXTINF:-1 tvg-id="" tvg-logo="https://c8.alamy.com/comp/2RFK4FK/baseball-college-league-logo-graphic-design-for-t-shirt-vector-and-illustration-2RFK4FK.jpg" group-title="Eventos",30 Beisbol Collegiate League Keene vs Mainers
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138690
-#EXTINF:-1 tvg-id="" tvg-logo="https://contentmasters.app/logos/lmb.png" group-title="Eventos",30 LMB 01 Sultanes de Monterrey vs Quintana Roo
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138703
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/BZFABCj.png" group-title="Eventos",30 NBA 01 Spurs vs Knicks Español
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138701
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/BZFABCj.png" group-title="Eventos",30 NBA 02 Spurs vs Knicks
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138702
-#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.footystats.org/img/competitions/chile-primera-b.png" group-title="Eventos",30 Segunda Chile Dep. Temuco vs Curicó U.
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138699
-#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.footystats.org/img/competitions/chile-primera-b.png" group-title="Eventos",30 Segunda Chile U. Española vs U. San Felipe
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138700
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Argentina vs Iceland
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138776
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Armenia vs Moldavia
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138735
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Azerbaiyán vs San Marino
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138741
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Fem Australia vs Mexico
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138729
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Hungría vs Kazajistán
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138739
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Iraq vs Venezuela
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138775
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso RD del Congo vs Chile
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138736
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Superliga_Argentina_Logo.png" group-title="Eventos",00 Arg Torneo Res Lanús Res. vs Independiente Res.
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138742
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.pinimg.com/736x/75/b8/54/75b854e78649f07764afdd8652dd0c83.jpg" group-title="Eventos",00 Basket ACB Barcelona vs Tenerife
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138743
+#EXTINF:-1 tvg-id="" tvg-logo="https://thumbs.dreamstime.com/b/logo-de-la-premier-league-canad%C3%A1-canadiense-f%C3%BAtbol-apertura-clausura-temporada-primavera-171067910.jpg" group-title="Eventos",00 Canadian PL Atl. Ottawa vs Supra Du Quebec
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138763
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Inglaterra vs Ucrania
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138744
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Islandia vs España
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138745
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Netherlands vs Poland
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138746
+#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Slovenia vs Germany
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138737
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/xun8gp1763456795.png" group-title="Eventos",00 Conmebol Nations League Fem Ecuador vs Argentina
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138760
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/xun8gp1763456795.png" group-title="Eventos",00 Conmebol Nations League Fem Paraguay vs Colombia
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138761
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/xun8gp1763456795.png" group-title="Eventos",00 Conmebol Nations League Fem Perú vs Bolivia
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138762
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/39/1/wta-2020-logo-png_seeklogo-392673.png" group-title="Eventos",00 HSBC Championships (primera Ronda) WTA
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138730
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/39/1/wta-2020-logo-png_seeklogo-392673.png" group-title="Eventos",00 HSBC Championships Court 5 (doubles) WTA
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138731
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 01 Puebla vs Saltillo
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138777
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 02 Queretaro vs Laguna
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138778
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 03 Veracruz vs Toros de Tijuana
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138779
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 10 Chihuahua vs Campeche
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138791
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4vSU2dU.png" group-title="Eventos",00 NHL 01 Hurricanes vs Golden Knights
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138770
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/LaLiga_SmartBank_TV_logo.svg/960px-LaLiga_SmartBank_TV_logo.svg.png" group-title="Eventos",00 Segunda España Almeria vs Castellón
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138748
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brasileir%C3%A3o_S%C3%A9rie_B_Superbet_logo_(all_grey).svg/500px-Brasileir%C3%A3o_S%C3%A9rie_B_Superbet_logo_(all_grey).svg.png" group-title="Eventos",00 Serie B Náutico vs Fortaleza
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138750
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/DIYepmY.png" group-title="Eventos",00 Tour Auvergne-rhône-alpes: Stage 3 Ciclismo
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138732
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn3.sportngin.com/attachments/document/0135/0314/USL_Cup_Logo-02.png" group-title="Eventos",00 USL Cup Birmingham vs Corpus Christi
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138769
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 01 Dream vs Sky
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138764
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 02 Valkyries vs Mercury
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138792
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 03 Phoenix Mercury vs Golden State Valkyries
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138794
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/39/1/wta-2020-logo-png_seeklogo-392673.png" group-title="Eventos",00 WTA Anastasia Potapova (aut) vs Suzan Lamens NED
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138734
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",05 MLB 18 Athletics vs Brewers
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138793
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",07 MLB 08 Blue Jays vs Phillies
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138765
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",10 MLB 09 Mets vs Cardinals
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138766
+#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",30 Amistoso Bielorrusia vs Burkina Faso
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138738
+#EXTINF:-1 tvg-id="" tvg-logo="https://c8.alamy.com/comp/2RFK4FK/baseball-college-league-logo-graphic-design-for-t-shirt-vector-and-illustration-2RFK4FK.jpg" group-title="Eventos",30 Beisbol Collegiate League MV Sharks vs Valley
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138751
+#EXTINF:-1 tvg-id="" tvg-logo="https://c8.alamy.com/comp/2RFK4FK/baseball-college-league-logo-graphic-design-for-t-shirt-vector-and-illustration-2RFK4FK.jpg" group-title="Eventos",30 Beisbol Collegiate League Newport vs Danbury
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138752
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 04 Bravos de Leon vs Dos Laredos
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138780
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 05 Charros de Jalisco vs Oaxaca
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138781
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 06 Sultanes de Monterrey vs Quintana Roo
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138782
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 07 Tabasco vs Caliente de Durango
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138783
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 08 Yucatan vs Aguascalientes
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138784
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",35 MLB 01 Orioles vs Mariners
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138692
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",38 MLB 06 Angels vs Astros
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138704
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 02 Guardians vs Yankees
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138693
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 03 Guardians vs Yankees Español
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138694
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 04 Rays vs Red Sox
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138695
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 07 Padres vs Reds
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138705
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 08 Padres vs Reds Español
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138706
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",45 Amistoso Países Bajos vs Uzbekistán
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138686
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",45 MLB 09 Giants vs Nationals
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138707
-#EXTINF:-1 tvg-id="" tvg-logo="https://contentmasters.app/logos/raw-wwe.png" group-title="Eventos",45 WWE Monday Night Raw
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138684
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138753
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",38 MLB 13 Angels vs Astros
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138785
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 02 Yankees vs Guardians
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138754
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 03 Tigers vs Twins
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138755
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 04 Marlins vs Diamondbacks
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138756
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 05 Pirates vs Dodgers
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138757
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 06 Pirates vs Dodgers Español
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138758
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 07 Rays vs Red Sox
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138759
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 10 White Sox vs Braves
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138767
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 11 Royals vs Rangers
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138768
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 12 Rockies vs Cubs
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138774
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 14 Padres vs Reds
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138786
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 15 Padres vs Reds Español
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138787
+#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",45 LMB 09 Monclova vs Diablos Rojos
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138788
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",45 MLB 16 Giants vs Nationals
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138789
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",45 MLB 17 Giants vs Nationals Español
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138790
 #EXTINF:-1 tvg-id="Canal.NFL.Network.cr" tvg-logo="https://i.imgur.com/rsSVCBR.png" group-title="Eventos",NFL Network
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138712
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138795
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/All_Elite_Wrestling_logo_2024.svg/1200px-All_Elite_Wrestling_logo_2024.svg.png" group-title="Eventos",PPV BOX Aew FOX Sports Premium
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138719
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138802
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/All_Elite_Wrestling_logo_2024.svg/1200px-All_Elite_Wrestling_logo_2024.svg.png" group-title="Eventos",PPV BOX Aew TBS
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138718
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138801
 #EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/s3VKv041cd_2fI5QdEG6T8IvDkLepdRKofk3ztEjRwb2TkH3UQIGtchzR-SX-KFxPeBeXIMKlw=s900-c-k-c0x00ffffff-no-rj" group-title="Eventos",PPV BOX Titan
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138717
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138800
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeDip0403HsCh2IAcjCZmfiaPaCDRzR54GQ&s" group-title="Eventos",PPV BOX UFC FIGHT PASS
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138720
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138803
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhnFFS1IZktlgI0c7s0K4L2C19jQH1Ptv9Jw&s" group-title="Eventos",PPV BOX USA Network OP1
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138721
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138804
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhnFFS1IZktlgI0c7s0K4L2C19jQH1Ptv9Jw&s" group-title="Eventos",PPV BOX USA Network OP2
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138722
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138805
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/1200px-WWE_official_logo.svg.png" group-title="Eventos",PPV BOX WWE Channel
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138713
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138796
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/NXT2024.jpg" group-title="Eventos",PPV BOX WWE NXT (solo Eventos)
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138716
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138799
 #EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/Ge77Z8_bMAAQofn?format=jpg&name=large" group-title="Eventos",PPV BOX WWE RAW (solo Eventos)
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138715
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138798
 #EXTINF:-1 tvg-id="" tvg-logo="https://s.yimg.com/ny/api/res/1.2/3EEN3zL5JbobsgGu6fMkug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk-/https://media.zenfs.com/en/wrestle_zone_910/8726fb1effb0efe9401a23536ae8d492" group-title="Eventos",PPV BOX WWE Smackdown (solo Eventos)
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138714
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138797
 #EXTINF:-1 tvg-id="" group-title="Películas",00s Replay
 http://galileatv.top:8080/deco-20/VumqaPUzpX/761955
 #EXTINF:-1 tvg-id="" group-title="Películas",48 Hours
