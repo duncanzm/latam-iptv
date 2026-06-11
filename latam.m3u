@@ -121,6 +121,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/64385
 http://181.119.93.83:8000/play/a1sr/index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@HispanicAmerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Canales de Argentina",Fifa+ Hispanic America
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal.Fox.Sports.(México).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Canales de Argentina",FOX Sports
+https://jmp2.uk/plu-5a74b8e1e22a61737979c6bf.m3u8
 #EXTINF:-1 tvg-id="KpopMix.ar@SD" tvg-logo="https://tvomix.com/Logos/Kpopmix.png" group-title="Canales de Argentina",Kpop Mix
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://serviciosvisuales.ga:25461/images/a939041ef6d0ffd41df5a179a170f887.png" group-title="Canales de Argentina",LA 90 FM
@@ -225,6 +227,8 @@ https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
 http://38.250.127.17:9800/play/a067/index.m3u8
 #EXTINF:-1 tvg-id="Canal74SanAntonio.cl@SD" tvg-logo="https://i.imgur.com/WRYsbjX.png" group-title="Canales de Chile",Canal 74 San Antonio
 https://stmv5.voxtvhd.com.br/canal74hd/canal74hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal.Claro.TV.cl" tvg-logo="https://i.imgur.com/Kgjfd3J.png" group-title="Canales de Chile",Canal Claro
+https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://serviciosvisuales.ga:25461/images/ad5942d655ace60d5dae1cfd1b977cb5.jpg" group-title="Canales de Chile",Canal Diputados
 http://galileatv.top:8080/deco-20/VumqaPUzpX/33405
 #EXTINF:-1 tvg-id="CanalISB.cl@SD" tvg-logo="https://i.imgur.com/cQ4ggTw.png" group-title="Canales de Chile",Canal ISB (iglesia San Bernardo)
@@ -441,6 +445,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/31370
 http://galileatv.top:8080/deco-20/VumqaPUzpX/31363
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/MJzuRAN.png" group-title="Canales de Colombia",RCN Más
 http://galileatv.top:8080/deco-20/VumqaPUzpX/344943
+#EXTINF:-1 tvg-id="NoticiasRCN.co" tvg-logo="https://i.imgur.com/FMX4QCM.png" group-title="Canales de Colombia",RCN Noticias
+https://jmp2.uk/plu-67d9b0ebc290c9499046e88f.m3u8
 #EXTINF:-1 tvg-id="RCN.Novelas.co" tvg-logo="http://visualservice.xyz:80/images/069f464a9e460a5ed75fa599bb19aad1.png" group-title="Canales de Colombia",RCN Novelas
 http://galileatv.top:8080/deco-20/VumqaPUzpX/33395
 #EXTINF:-1 tvg-id="Canal.La.Red.(Chile).cl" tvg-logo="https://i.imgur.com/kuqkTMC.png" group-title="Canales de Colombia",Red+
@@ -813,6 +819,10 @@ https://streamtv.mediasector.es/hls/activatv/index.m3u8
 http://galileatv.top:8080/deco-20/VumqaPUzpX/67564
 #EXTINF:-1 tvg-id="AMC.Crime.es" tvg-logo="http://visualservice.xyz:80/images/343e877633675f15afd1fc828ab924a2.png" group-title="Canales de España",AMC Crime
 http://galileatv.top:8080/deco-20/VumqaPUzpX/351195
+#EXTINF:-1 tvg-id="Anaylos7.us" tvg-logo="https://i.imgur.com/X5g6gXS.png" group-title="Canales de España",Ana y los 7
+https://jmp2.uk/plu-5f1acce7f17797000718f9be.m3u8
+#EXTINF:-1 tvg-id="Andromeda.us" tvg-logo="https://i.imgur.com/6ot2lmd.png" group-title="Canales de España",Andromeda
+https://jmp2.uk/plu-6850335b5965a2fd49f7e36d.m3u8
 #EXTINF:-1 tvg-id="AngelTV.in@Spanish" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Canales de España",Angel TV Spanish
 https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimeVision.es@SD" tvg-logo="https://i.imgur.com/pUpKznl.png" group-title="Canales de España",Anime Vision
@@ -829,6 +839,8 @@ http://177.10.184.193:8000/play/a06a/index.m3u8
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Logo_aragon_tv_2016.png" group-title="Canales de España",Aragon TV 720P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/157784
+#EXTINF:-1 tvg-id="ArchivosForenses.us" tvg-logo="https://i.imgur.com/Pxrl9Ug.png" group-title="Canales de España",Archivos Forenses
+https://jmp2.uk/plu-5f984f4a09e92d0007d74647.m3u8
 #EXTINF:-1 tvg-id="Atrescine.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png" group-title="Canales de España",Atrescine
 http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8
 #EXTINF:-1 tvg-id="Canal.AXN.(Costa.Rica).cr" tvg-logo="http://discusfish.xyz:25461/images/22b80be11495f4d907cf3d9c6d9ede0d.jpg" group-title="Canales de España",AXN
@@ -855,6 +867,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/720537
 http://galileatv.top:8080/deco-20/VumqaPUzpX/67513
 #EXTINF:-1 tvg-id="" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Canales de España",Bloomberg TV Emea Live Event 720P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/157789
+#EXTINF:-1 tvg-id="BobEsponja.us" tvg-logo="https://i.imgur.com/nmZ2nId.png" group-title="Canales de España",Bob Esponja
+https://jmp2.uk/plu-5f1aca0b4e448e00075e7c5e.m3u8
 #EXTINF:-1 tvg-id="Boing.es" tvg-logo="https://static.epg.best/es/Boing.es.png" group-title="Canales de España",Boing
 http://galileatv.top:8080/deco-20/VumqaPUzpX/55914
 #EXTINF:-1 tvg-id="BOM.Cine.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo-bom.svg/960px-Logo-bom.svg.png" group-title="Canales de España",Bom Cine
@@ -909,6 +923,8 @@ http://89.140.229.5/hls1/cancionero.m3u8
 http://galileatv.top:8080/deco-20/VumqaPUzpX/372204
 #EXTINF:-1 tvg-id="Caza.y.Pesca.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/Caza-pesca_m%2B.png" group-title="Canales de España",Caza y Pesca
 http://galileatv.top:8080/deco-20/VumqaPUzpX/379487
+#EXTINF:-1 tvg-id="CazadordeHomicidas.us" tvg-logo="https://i.imgur.com/hy6FJLe.png" group-title="Canales de España",Cazador de Homicidas
+https://jmp2.uk/plu-60ed5fb9c4716d0007d180c5.m3u8
 #EXTINF:-1 tvg-id="Cazavisión.es" tvg-logo="https://tv.cazavision.com/images/logo-whiteES.png" group-title="Canales de España",Cazavision
 http://galileatv.top:8080/deco-20/VumqaPUzpX/447109
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/images/af2b2290d2419ac058c801c47af14d90.png" group-title="Canales de España",Cazypesca
@@ -927,16 +943,22 @@ https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6
 http://galileatv.top:8080/deco-20/VumqaPUzpX/67571
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/es/Cosmo.es.png" group-title="Canales de España",Cosmo
 http://galileatv.top:8080/deco-20/VumqaPUzpX/55855
+#EXTINF:-1 tvg-id="CrimenHistoria.es@SD" tvg-logo="https://images.pluto.tv/channels/64ddcbb14c5ed80008fad416/colorLogoPNG.png" group-title="Canales de España",Crimen & Historia
+https://jmp2.uk/plu-64ddcbb14c5ed80008fad416.m3u8
 #EXTINF:-1 tvg-id="CristianaTV.es@SD" tvg-logo="https://i.imgur.com/FpkNIIG.jpg" group-title="Canales de España",Cristiana TV
 https://cristianos2.todostreaming.es/live/malaga-livestream.m3u8
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="https://i.imgur.com/NYLnABb.png" group-title="Canales de España",Cuatro
 http://92.176.119.180:2095/play/a1g2
 #EXTINF:-1 tvg-id="Cuatro.es" tvg-logo="http://visualservice.xyz:80/images/488e788a513046c2ac746ccf3399cce5.png" group-title="Canales de España",Cuatro (x)
 http://galileatv.top:8080/deco-20/VumqaPUzpX/31907
+#EXTINF:-1 tvg-id="CurroJimenez.us" tvg-logo="https://i.imgur.com/e3biTY5.png" group-title="Canales de España",Curro Jiménez
+https://jmp2.uk/plu-5f1acd36779de70007a680d1.m3u8
 #EXTINF:-1 tvg-id="Dark.es" tvg-logo="https://ipmark.com/wp-content/uploads/2016/10/DARK-Canal-Televisi%C3%B3n-Terror.png" group-title="Canales de España",DARK
 http://galileatv.top:8080/deco-20/VumqaPUzpX/196085
 #EXTINF:-1 tvg-id="Decasa.es" tvg-logo="http://visualservice.xyz:80/images/3903936ebcb3ba811345cbf4aa9312de.png" group-title="Canales de España",Decasa
 http://galileatv.top:8080/deco-20/VumqaPUzpX/67527
+#EXTINF:-1 tvg-id="DetectiveConan.us" tvg-logo="https://images.pluto.tv/channels/62f3e8ad2a8e8000077b013d/colorLogoPNG.png?w=512" group-title="Canales de España",Detective Conan
+https://jmp2.uk/plu-629a066860ef810008267b70.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/5KXkBbs.jpg" group-title="Canales de España",Diez TV 1080P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/157838
 #EXTINF:-1 tvg-id="DiezTVLasVillas.es@SD" tvg-logo="https://i.imgur.com/QTA40lP.png" group-title="Canales de España",Diez TV las Villas
@@ -963,12 +985,22 @@ https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8
 http://galileatv.top:8080/deco-20/VumqaPUzpX/371020
 #EXTINF:-1 tvg-id="" tvg-logo="https://imgur.com/VBVu2bu.png" group-title="Canales de España",Eitb2
 http://galileatv.top:8080/deco-20/VumqaPUzpX/371021
+#EXTINF:-1 tvg-id="ElComisario.us" tvg-logo="https://i.imgur.com/XYt8utn.png" group-title="Canales de España",El Comisario
+https://jmp2.uk/plu-60c343007bcabe0007242aa6.m3u8
+#EXTINF:-1 tvg-id="Elencantadordeperros.us" tvg-logo="https://i.imgur.com/hYqjQ1n.png" group-title="Canales de España",El Encantador de Perros
+https://jmp2.uk/plu-60e45687313c5f0007bc8e94.m3u8
+#EXTINF:-1 tvg-id="ElMueble.es@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/d64983e2-55b1-410b-9599-98a28f7b94ba/Logo_ElMueble_1500x1000_AllWhite_-_Belen_Bruno.png" group-title="Canales de España",El Mueble
+https://jmp2.uk/plu-690dd10a37b131228d76d5b1.m3u8
 #EXTINF:-1 tvg-id="El.Toro.TV.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Eltorotv.png" group-title="Canales de España",El Toro TV
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 #EXTINF:-1 tvg-id="Elche.7.TV.es" tvg-logo="https://i.imgur.com/tjI0dLx.png" group-title="Canales de España",Elche 7 TV
 https://elche7tv.gestec-video.com/hls/canal2.m3u8
+#EXTINF:-1 tvg-id="Empenosalobestia.us" tvg-logo="https://i.imgur.com/EOttSdW.png" group-title="Canales de España",Empeños a Lo Bestia
+https://jmp2.uk/plu-60218baa464ef900073168c1.m3u8
 #EXTINF:-1 tvg-id="EmpordaTV.es@SD" tvg-logo="https://i.imgur.com/jc0lUbX.png" group-title="Canales de España",Empordà TV
 https://video3.lhdserver.es/empordatv2/live.m3u8
+#EXTINF:-1 tvg-id="Enelpuntodemira.us" tvg-logo="https://i.imgur.com/E9grXd9.png" group-title="Canales de España",En el Punto de Mira
+https://jmp2.uk/plu-61922be835f3910007fc58f6.m3u8
 #EXTINF:-1 tvg-id="Energy.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Energy.svg/960px-Energy.svg.png" group-title="Canales de España",Energy
 http://92.176.119.180:2095/play/a17a
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.epg.best/es/Energy.es.png" group-title="Canales de España",Energy OP 1
@@ -1031,6 +1063,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/456308
 https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Historia.es" tvg-logo="https://i.imgur.com/VUy8xIG.png" group-title="Canales de España",Historia
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
+#EXTINF:-1 tvg-id="Historia.y.Vida.es" tvg-logo="https://i.imgur.com/56ZtCA1.png" group-title="Canales de España",Historia y Vida
+https://jmp2.uk/plu-67517f923a61d40008c451f0.m3u8
 #EXTINF:-1 tvg-id="HOLAPlay.es@SD" tvg-logo="https://m.media-amazon.com/images/I/5194tl8duqL.png" group-title="Canales de España",Hola! Play
 https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
 #EXTINF:-1 tvg-id="Hollywood.es" tvg-logo="https://static.epg.best/es/Hollywood.es.png" group-title="Canales de España",Hollywood
@@ -1085,12 +1119,18 @@ http://latam-cache-sv2-cdn.latamlive.net/LA_LIGA_SMARTBANK_IP_ENC_LIVE/index.m3u
 http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTZID4SFOqZLZ81NguVP-JxM/m3u8
 #EXTINF:-1 tvg-id="LancelotTV.es@SD" tvg-logo="https://i.imgur.com/RlzVIJP.png" group-title="Canales de España",Lancelot TV
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
+#EXTINF:-1 tvg-id="LasTortugasNinja.us" tvg-logo="https://i.imgur.com/urJdNc9.png" group-title="Canales de España",Las Tortugas Ninja
+https://jmp2.uk/plu-61373f1a12dd9f00077dcd6f.m3u8
 #EXTINF:-1 tvg-id="LiraTV.es@SD" tvg-logo="https://i.imgur.com/hBswXYZ.png" group-title="Canales de España",Liratv
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/nologo.png" group-title="Canales de España",Logos TV 1080P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/157915
 #EXTINF:-1 tvg-id="" tvg-logo="https://proyectoesperanza.es/wp-content/uploads/2017/02/logos-logo-big.png" group-title="Canales de España",Logos TV 720P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/157916
+#EXTINF:-1 tvg-id="LosarchivosdelFBI.us" tvg-logo="https://i.imgur.com/eDCdJO2.png" group-title="Canales de España",Los Archivos del FBI
+https://jmp2.uk/plu-5f1acbed25948a0007ffbe65.m3u8
+#EXTINF:-1 tvg-id="LosAsesinatosdeMidsomer.us" tvg-logo="https://i.imgur.com/JIbupT1.png" group-title="Canales de España",Los Asesinatos de Midsomer
+https://jmp2.uk/plu-5f1aca8310a30e00074fab92.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/images/06bed58ad843f314df7ff757960fcb64.png" group-title="Canales de España",M Series XTRA
 http://galileatv.top:8080/deco-20/VumqaPUzpX/67541
 #EXTINF:-1 tvg-id="M+.Documentales.es" group-title="Canales de España",M+ Documentales
@@ -1117,10 +1157,14 @@ https://stream.maestrat.tv/hls/stream.m3u8
 http://iptv.services.everywan.net:8080/martv-web/video.m3u8
 #EXTINF:-1 tvg-id="Canal.Mega.(Chile).cl" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="Canales de España",Mega
 http://92.176.119.180:2095/play/a178
+#EXTINF:-1 tvg-id="PlutoTVMelrosePlace.us" tvg-logo="https://i.imgur.com/hXDj0fV.png" group-title="Canales de España",Melrose Place
+https://jmp2.uk/plu-64be745340962900080b55e7.m3u8
 #EXTINF:-1 tvg-id="Mezzo.Live.es" tvg-logo="https://static.epg.best/es/Mezzo.es.png" group-title="Canales de España",Mezzo Live
 http://galileatv.top:8080/deco-20/VumqaPUzpX/55861
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/f/f0/Mezzo_Live_HD.png" group-title="Canales de España",Mezzo Live FULL
 http://galileatv.top:8080/deco-20/VumqaPUzpX/786107
+#EXTINF:-1 tvg-id="MiExtranaObsesion.us" tvg-logo="https://i.imgur.com/VtxO6KI.png" group-title="Canales de España",Mi Extraña Obsesión
+https://jmp2.uk/plu-60e4573c9f963e00077ecf25.m3u8
 #EXTINF:-1 tvg-id="Mijas340TV.es@SD" tvg-logo="https://i.imgur.com/RH1zLLs.png" group-title="Canales de España",Mijas 3.40TV
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 #EXTINF:-1 tvg-id="MolahitsTV.es@SD" tvg-logo="https://i.imgur.com/FYcLtqT.png" group-title="Canales de España",Molahits TV
@@ -1129,6 +1173,12 @@ http://ventdelnord.tv:8080/mola/directe.m3u8
 http://galileatv.top:8080/deco-20/VumqaPUzpX/494438
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@ES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Canales de España",Mr. Bean Anime Spain
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+#EXTINF:-1 tvg-id="MTVEmbarazadaalos16.us" tvg-logo="https://i.imgur.com/FumEFIG.png" group-title="Canales de España",MTV Embarazada a los 16
+https://jmp2.uk/plu-5f98537a5a4341000733aefe.m3u8
+#EXTINF:-1 tvg-id="MTVOriginals.us" tvg-logo="https://i.imgur.com/qWf8Zku.png" group-title="Canales de España",MTV Originals
+https://jmp2.uk/plu-5f1aadf373bed3000794d1d7.m3u8
+#EXTINF:-1 tvg-id="MTVTattooados.us" tvg-logo="https://i.imgur.com/VisA1sY.png" group-title="Canales de España",MTV Tattoo a Dos
+https://jmp2.uk/plu-611b87946b7f420007c22361.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://eter-picons.one/picons/Toros_HD.png" group-title="Canales de España",Mundo Toro TV
 http://galileatv.top:8080/deco-20/VumqaPUzpX/511753
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Canales de España",Mytime Movie Network Spain
@@ -1167,6 +1217,8 @@ https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 https://tvradio-1-23-secure2.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-id="OndaValenciaTV.es@SD" tvg-logo="https://i.imgur.com/6HxLUQd.png" group-title="Canales de España",Onda Valencia
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
+#EXTINF:-1 tvg-id="OnePiece.us@Spain" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Canales de España",One Piece
+https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/nQH5LBq.png" group-title="Canales de España",One Toro
 http://galileatv.top:8080/deco-20/VumqaPUzpX/784096
 #EXTINF:-1 tvg-id="Canal.Paramount.Channel.(Costa.Rica).cr" tvg-logo="https://static.epg.best/es/ParamountChannel.es.png" group-title="Canales de España",Paramount
@@ -1177,6 +1229,32 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/157937
 https://s153.ipcamlive.com/streams/99pic5fsknh2gnvhx/stream.m3u8
 #EXTINF:-1 tvg-id="PlatziTV.es@SD" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Canales de España",Platzi TV
 https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAnimales.us" tvg-logo="https://i.imgur.com/P2jEmG1.png" group-title="Canales de España",Pluto TV Animales
+https://jmp2.uk/plu-600ae6a78d801e0007117d21.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAnime.us@Spain" tvg-logo="https://images.pluto.tv/channels/62a2e8d8a1c8650007e95bac/colorLogoPNG.png" group-title="Canales de España",Pluto TV Anime
+https://jmp2.uk/plu-608035b8d8705f0007260287.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCineComedia.us" tvg-logo="https://i.imgur.com/1H1MHb2.png" group-title="Canales de España",Pluto TV Cine Comédia
+https://jmp2.uk/plu-5f12101f0b12f00007844c7c.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCineRomantico.us" tvg-logo="https://i.imgur.com/jh9Ycq3.png" group-title="Canales de España",Pluto TV Cine Romántico
+https://jmp2.uk/plu-5f1ac9a2d3611d0007a844bb.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCocina.us" tvg-logo="https://i.imgur.com/LRtfQla.png" group-title="Canales de España",Pluto TV Cocina
+https://jmp2.uk/plu-5f1acdaa8ba90f0007d5e760.m3u8
+#EXTINF:-1 tvg-id="ComediaMadeinSpain.us" tvg-logo="https://i.imgur.com/8ddFdSQ.png" group-title="Canales de España",Pluto TV Comedia Made In Spain
+https://jmp2.uk/plu-5f1abce155a03d0007718834.m3u8
+#EXTINF:-1 tvg-id="ComedyMovies.es" tvg-logo="https://i.imgur.com/BpsDY37.png" group-title="Canales de España",Pluto TV Comedy Movies
+https://jmp2.uk/plu-62ea3d24b8e02600071fa296.m3u8
+#EXTINF:-1 tvg-id="PlutoTVDocumentales.us" tvg-logo="https://i.imgur.com/xaiWDjK.png" group-title="Canales de España",Pluto TV Documentales
+https://jmp2.uk/plu-5ddc503ac7ef120009b101a2.m3u8
+#EXTINF:-1 tvg-id="PlutoTVHorror.us@Spain" tvg-logo="https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png" group-title="Canales de España",Pluto TV Horror
+https://jmp2.uk/plu-6267d4d1fb694f0007a6af0e.m3u8
+#EXTINF:-1 tvg-id="PlutoTVJunior.us" tvg-logo="https://i.imgur.com/7sApMZS.png" group-title="Canales de España",Pluto TV Junior
+https://jmp2.uk/plu-5f8ecb336537e8000764a17f.m3u8
+#EXTINF:-1 tvg-id="PlutoTVMotor.us" tvg-logo="https://i.imgur.com/LSrfnpB.png" group-title="Canales de España",Pluto TV Motor
+https://jmp2.uk/plu-68ac51dede4a734954b5a67a.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSeriesComedia.us" tvg-logo="https://i.imgur.com/INcTSkj.png" group-title="Canales de España",Pluto TV Séries Comédia
+https://jmp2.uk/plu-655e5bc94261ca000810cb17.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTelenovelas.us" tvg-logo="https://i.imgur.com/GrtNJki.png" group-title="Canales de España",Pluto TV Telenovelas
+https://jmp2.uk/plu-60b4c06717da110007ee1af6.m3u8
 #EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Canales de España",POP World TV
 https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
 #EXTINF:-1 tvg-id="PTVCordoba.es@SD" tvg-logo="https://i.imgur.com/X3eIdVf.png" group-title="Canales de España",PTV Córdoba
@@ -1227,12 +1305,16 @@ https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/nologo.png" group-title="Canales de España",RTV Vida 1080P
 http://galileatv.top:8080/deco-20/VumqaPUzpX/158002
+#EXTINF:-1 tvg-id="Rugrats.us" tvg-logo="https://i.imgur.com/l5XmvM1.png" group-title="Canales de España",Rugrats
+https://jmp2.uk/plu-610c09219fc0430007a3fce6.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon" tvg-logo="http://visualservice.xyz:80/images/b3b9bfbe8c823c7b268d685ad9fa3919.png" group-title="Canales de España",Seriesmania
 http://galileatv.top:8080/deco-20/VumqaPUzpX/67555
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/images/cdb0e11e2a45ab1bdfda572ad5724916.png" group-title="Canales de España",Sevilla FC TV
 http://galileatv.top:8080/deco-20/VumqaPUzpX/22074
 #EXTINF:-1 tvg-id="La Sexta HD" tvg-logo="http://visualservice.xyz:80/images/7f601cdc04f348e922bda4c3391a7c94.png" group-title="Canales de España",Sexta
 http://galileatv.top:8080/deco-20/VumqaPUzpX/31908
+#EXTINF:-1 tvg-id="Sintetasnohayparaiso.us" tvg-logo="https://i.imgur.com/fpwU2IQ.png" group-title="Canales de España",Sin Tetas No Hay Paraíso
+https://jmp2.uk/plu-604bdf4e6d0abc0007ba77ad.m3u8
 #EXTINF:-1 tvg-id="SOL.Música.es" tvg-logo="https://i.imgur.com/rbJrmPw.png" group-title="Canales de España",Sol Música
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
 #EXTINF:-1 tvg-id="Solidaria.TV.Argentina.es" tvg-logo="https://i.imgur.com/Bgm2iZY.png" group-title="Canales de España",Solidaria TV
@@ -1321,6 +1403,8 @@ https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8
 https://directes-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
 #EXTINF:-1 tvg-id="Canal.TVE.Internacional.(Televisión.Española).cr" tvg-logo="http://visualservice.xyz:80/images/3f1aec919860db046bfc3fa1a8862ef4.png" group-title="Canales de España",TVE Internacional
 http://galileatv.top:8080/deco-20/VumqaPUzpX/42720
+#EXTINF:-1 tvg-id="TVEInternacionalEurope.es@HD" tvg-logo="https://i.ibb.co/RpKLCMvp/tve.png" group-title="Canales de España",TVE Internacional Europe-asia HD
+https://siarlive.psce.pw/channel5
 #EXTINF:-1 tvg-id="Star.TVE.HD.co" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Canales de España",TVE Star
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/KgbNv4G.png" group-title="Canales de España",TVG Infantil 720P
@@ -1329,10 +1413,14 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/158043
 https://cloud.tvomix.com/TVOJESUS/index.m3u8
 #EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" group-title="Canales de España",Tvomix
 https://cloud.tvomix.com/TVOMIX/index.m3u8
+#EXTINF:-1 tvg-id="Unidaddeinvestigacion.us" tvg-logo="https://i.imgur.com/tc3zenG.png" group-title="Canales de España",Unidad de Investigación
+https://jmp2.uk/plu-61bb2814ac085a00074309a6.m3u8
 #EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Canales de España",Univers TV
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-id="UrolaTelebista.es@SD" tvg-logo="https://i.imgur.com/V23bltn.png" group-title="Canales de España",Urola Telebista
 https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
+#EXTINF:-1 tvg-id="Vayasemanita.us" tvg-logo="https://i.imgur.com/0bCLNUG.png" group-title="Canales de España",Vaya Semanita
+https://jmp2.uk/plu-5f28009b150b2500077766b8.m3u8
 #EXTINF:-1 tvg-id="VentdelnordTV.es@SD" tvg-logo="https://i.imgur.com/6sUkVOd.png" group-title="Canales de España",Ventdelnord TV
 http://ventdelnord.tv:8080/hls/directe.m3u8
 #EXTINF:-1 tvg-id="Veo7.es@SD" tvg-logo="https://i.imgur.com/kklTIMm.png" group-title="Canales de España",Veo7
@@ -1426,7 +1514,7 @@ http://181.119.93.83:8000/play/a1di/index.m3u8
 #EXTINF:-1 tvg-id="ConectaTV.mx@SD" tvg-logo="https://i.imgur.com/qEk0QGa.png" group-title="Canales de México",Conecta TV
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
 #EXTINF:-1 tvg-id="CreaLaTV.mx@SD" tvg-logo="https://i.imgur.com/Bnjj29f.png" group-title="Canales de México",Crealatv
-https://stream8.mexiserver.com:2000/hls/crealatv/crealatv.m3u8
+https://stream.crealatv.com/live.m3u8
 #EXTINF:-1 tvg-id="Canal.Distrito.Comedia.cr" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png" group-title="Canales de México",Distrito Comedia
 http://galileatv.top:8080/deco-20/VumqaPUzpX/31072
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="Canales de México",DW English
@@ -1477,6 +1565,8 @@ https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
 http://galileatv.top:8080/deco-20/VumqaPUzpX/31071
 #EXTINF:-1 tvg-id="Canal.Mexiquense.TV.mx" tvg-logo="https://i.imgur.com/iVfzakA.png" group-title="Canales de México",Mexiquense TV
 https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal.Milenio.TV.mx" tvg-logo="https://i.imgur.com/TG1T5Oh.png" group-title="Canales de México",Milenio Televisión
+https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
 #EXTINF:-1 tvg-id="MonteMaria.mx@SD" tvg-logo="https://i.imgur.com/0rMHbbM.png" group-title="Canales de México",Monte Maria
 https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.mx@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Canales de México",Mytime Movie Network Mexico
@@ -1601,6 +1691,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/369575
 https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8
 #EXTINF:-1 tvg-id="ATV.(ATV).pe" tvg-logo="https://i.imgur.com/fY9256H.png" group-title="Canales de Perú",ATV
 https://d2qsan2ut81n2k.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/ts:abr.m3u8
+#EXTINF:-1 tvg-id="ATV.(ATV).pe" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/19/SUR_Peru.svg/revision/latest?cb=20210407014434&path-prefix=es" group-title="Canales de Perú",ATV SUR Peru
+http://galileatv.top:8080/deco-20/VumqaPUzpX/761423
 #EXTINF:-1 tvg-id="" tvg-logo="https://autenticatv.pe/wp-content/uploads/elementor/thumbs/logo-web-p0scrodaccuo3azseya6goo9amqk8hdut43cbpqb5s.png" group-title="Canales de Perú",Autentica TV
 http://galileatv.top:8080/deco-20/VumqaPUzpX/514989
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Best_Cable_logo.png" group-title="Canales de Perú",BEST Cable
@@ -1685,8 +1777,6 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/192537
 https://live.obslivestream.com/selvatv/index.m3u8
 #EXTINF:-1 tvg-id="SolTV.pe@SD" tvg-logo="https://i.imgur.com/GtNkuAc.png" group-title="Canales de Perú",Sol Televisión
 https://video03.logicahost.com.br/soltv/soltv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/19/SUR_Peru.svg/revision/latest?cb=20210407014434&path-prefix=es" group-title="Canales de Perú",Surperu
-http://galileatv.top:8080/deco-20/VumqaPUzpX/761423
 #EXTINF:-1 tvg-id="Teleselva.pe@SD" tvg-logo="https://i.imgur.com/cu7hTn8.png" group-title="Canales de Perú",Teleselva
 https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/LOGO_TV_PERU_2012.png" group-title="Canales de Perú",TV Peru (0)
@@ -1738,7 +1828,7 @@ https://bloomberg.com/media-manifest/streams/us-event.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@PoliticsLiveEvent" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Canales de USA",Bloomberg TV US Politics Live Event
 https://bloomberg.com/media-manifest/streams/politics.m3u8
 #EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="Canales de USA",CBS News 24/7
-https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8
+https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
 #EXTINF:-1 tvg-id="CheddarNews.us@SD" tvg-logo="https://i.imgur.com/tuP9GW8.png" group-title="Canales de USA",Cheddar News
 https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar/samsung_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Fox.News.cr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="Canales de USA",FOX News Channel
@@ -1755,8 +1845,8 @@ https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 #EXTINF:-1 tvg-id="ReutersTV.us@SD" tvg-logo="https://i.imgur.com/6eQ2nCJ.png" group-title="Canales de USA",Reuters
 https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="ScrippsNews.us@SD" tvg-logo="https://i.imgur.com/W0Jvi5o.png" group-title="Canales de USA",Scripps News
-https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8
+#EXTINF:-1 tvg-id="KGUNTV96.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Scripps_News_logo.svg/960px-Scripps_News_logo.svg.png" group-title="Canales de USA",Scripps News
+https://jmp2.uk/plu-5459795fc9f133a519bc0bef.m3u8
 #EXTINF:-1 tvg-id="Canal.TUDN.(Costa.Rica).cr" tvg-logo="https://i.imgur.com/oT5CAvd.png" group-title="Canales de USA",TUDN
 http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTVL9TbgOeYnXUEC2UjoDBYk/m3u8
 #EXTINF:-1 tvg-id="USATODAY.us@SD" tvg-logo="https://i.imgur.com/37K0AZX.png" group-title="Canales de USA",USA Today
@@ -2229,146 +2319,6 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/46328
 http://galileatv.top:8080/deco-20/VumqaPUzpX/768171
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/nrWNyLc.jpg" group-title="Deportes",Óčko Gold
 http://galileatv.top:8080/deco-20/VumqaPUzpX/273879
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Argentina vs Iceland
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138776
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Armenia vs Moldavia
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138735
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Azerbaiyán vs San Marino
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138741
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Fem Australia vs Mexico
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138729
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Hungría vs Kazajistán
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138739
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso Iraq vs Venezuela
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138775
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",00 Amistoso RD del Congo vs Chile
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138736
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Superliga_Argentina_Logo.png" group-title="Eventos",00 Arg Torneo Res Lanús Res. vs Independiente Res.
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138742
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.pinimg.com/736x/75/b8/54/75b854e78649f07764afdd8652dd0c83.jpg" group-title="Eventos",00 Basket ACB Barcelona vs Tenerife
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138743
-#EXTINF:-1 tvg-id="" tvg-logo="https://thumbs.dreamstime.com/b/logo-de-la-premier-league-canad%C3%A1-canadiense-f%C3%BAtbol-apertura-clausura-temporada-primavera-171067910.jpg" group-title="Eventos",00 Canadian PL Atl. Ottawa vs Supra Du Quebec
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138763
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Inglaterra vs Ucrania
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138744
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Islandia vs España
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138745
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Netherlands vs Poland
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138746
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/G_hgzpuXAAAo5sd.png" group-title="Eventos",00 Clasif Mund Fem Slovenia vs Germany
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138737
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/xun8gp1763456795.png" group-title="Eventos",00 Conmebol Nations League Fem Ecuador vs Argentina
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138760
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/xun8gp1763456795.png" group-title="Eventos",00 Conmebol Nations League Fem Paraguay vs Colombia
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138761
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/badge/xun8gp1763456795.png" group-title="Eventos",00 Conmebol Nations League Fem Perú vs Bolivia
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138762
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/39/1/wta-2020-logo-png_seeklogo-392673.png" group-title="Eventos",00 HSBC Championships (primera Ronda) WTA
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138730
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/39/1/wta-2020-logo-png_seeklogo-392673.png" group-title="Eventos",00 HSBC Championships Court 5 (doubles) WTA
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138731
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 01 Puebla vs Saltillo
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138777
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 02 Queretaro vs Laguna
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138778
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 03 Veracruz vs Toros de Tijuana
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138779
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",00 LMB 10 Chihuahua vs Campeche
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138791
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/4vSU2dU.png" group-title="Eventos",00 NHL 01 Hurricanes vs Golden Knights
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138770
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/LaLiga_SmartBank_TV_logo.svg/960px-LaLiga_SmartBank_TV_logo.svg.png" group-title="Eventos",00 Segunda España Almeria vs Castellón
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138748
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brasileir%C3%A3o_S%C3%A9rie_B_Superbet_logo_(all_grey).svg/500px-Brasileir%C3%A3o_S%C3%A9rie_B_Superbet_logo_(all_grey).svg.png" group-title="Eventos",00 Serie B Náutico vs Fortaleza
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138750
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/DIYepmY.png" group-title="Eventos",00 Tour Auvergne-rhône-alpes: Stage 3 Ciclismo
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138732
-#EXTINF:-1 tvg-id="" tvg-logo="https://cdn3.sportngin.com/attachments/document/0135/0314/USL_Cup_Logo-02.png" group-title="Eventos",00 USL Cup Birmingham vs Corpus Christi
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138769
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 01 Dream vs Sky
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138764
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 02 Valkyries vs Mercury
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138792
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3WZif85.png" group-title="Eventos",00 WNBA 03 Phoenix Mercury vs Golden State Valkyries
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138794
-#EXTINF:-1 tvg-id="" tvg-logo="https://images.seeklogo.com/logo-png/39/1/wta-2020-logo-png_seeklogo-392673.png" group-title="Eventos",00 WTA Anastasia Potapova (aut) vs Suzan Lamens NED
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138734
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",05 MLB 18 Athletics vs Brewers
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138793
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",07 MLB 08 Blue Jays vs Phillies
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138765
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",10 MLB 09 Mets vs Cardinals
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138766
-#EXTINF:-1 tvg-id="" tvg-logo="https://pronosticos.co/wp-content/uploads/2016/08/Amistosos-Internacionales-1.jpg" group-title="Eventos",30 Amistoso Bielorrusia vs Burkina Faso
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138738
-#EXTINF:-1 tvg-id="" tvg-logo="https://c8.alamy.com/comp/2RFK4FK/baseball-college-league-logo-graphic-design-for-t-shirt-vector-and-illustration-2RFK4FK.jpg" group-title="Eventos",30 Beisbol Collegiate League MV Sharks vs Valley
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138751
-#EXTINF:-1 tvg-id="" tvg-logo="https://c8.alamy.com/comp/2RFK4FK/baseball-college-league-logo-graphic-design-for-t-shirt-vector-and-illustration-2RFK4FK.jpg" group-title="Eventos",30 Beisbol Collegiate League Newport vs Danbury
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138752
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 04 Bravos de Leon vs Dos Laredos
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138780
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 05 Charros de Jalisco vs Oaxaca
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138781
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 06 Sultanes de Monterrey vs Quintana Roo
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138782
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 07 Tabasco vs Caliente de Durango
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138783
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",30 LMB 08 Yucatan vs Aguascalientes
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138784
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",35 MLB 01 Orioles vs Mariners
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138753
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",38 MLB 13 Angels vs Astros
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138785
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 02 Yankees vs Guardians
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138754
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 03 Tigers vs Twins
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138755
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 04 Marlins vs Diamondbacks
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138756
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 05 Pirates vs Dodgers
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138757
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 06 Pirates vs Dodgers Español
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138758
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 07 Rays vs Red Sox
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138759
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 10 White Sox vs Braves
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138767
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 11 Royals vs Rangers
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138768
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 12 Rockies vs Cubs
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138774
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 14 Padres vs Reds
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138786
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",40 MLB 15 Padres vs Reds Español
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138787
-#EXTINF:-1 tvg-id="" tvg-logo="https://r2.thesportsdb.com/images/media/league/logo/f975vs1625460045.png" group-title="Eventos",45 LMB 09 Monclova vs Diablos Rojos
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138788
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",45 MLB 16 Giants vs Nationals
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138789
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/IzQhHP7.png" group-title="Eventos",45 MLB 17 Giants vs Nationals Español
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138790
-#EXTINF:-1 tvg-id="Canal.NFL.Network.cr" tvg-logo="https://i.imgur.com/rsSVCBR.png" group-title="Eventos",NFL Network
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138795
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/All_Elite_Wrestling_logo_2024.svg/1200px-All_Elite_Wrestling_logo_2024.svg.png" group-title="Eventos",PPV BOX Aew FOX Sports Premium
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138802
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/All_Elite_Wrestling_logo_2024.svg/1200px-All_Elite_Wrestling_logo_2024.svg.png" group-title="Eventos",PPV BOX Aew TBS
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138801
-#EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/s3VKv041cd_2fI5QdEG6T8IvDkLepdRKofk3ztEjRwb2TkH3UQIGtchzR-SX-KFxPeBeXIMKlw=s900-c-k-c0x00ffffff-no-rj" group-title="Eventos",PPV BOX Titan
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138800
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeDip0403HsCh2IAcjCZmfiaPaCDRzR54GQ&s" group-title="Eventos",PPV BOX UFC FIGHT PASS
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138803
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhnFFS1IZktlgI0c7s0K4L2C19jQH1Ptv9Jw&s" group-title="Eventos",PPV BOX USA Network OP1
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138804
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhnFFS1IZktlgI0c7s0K4L2C19jQH1Ptv9Jw&s" group-title="Eventos",PPV BOX USA Network OP2
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138805
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/1200px-WWE_official_logo.svg.png" group-title="Eventos",PPV BOX WWE Channel
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138796
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/NXT2024.jpg" group-title="Eventos",PPV BOX WWE NXT (solo Eventos)
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138799
-#EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/media/Ge77Z8_bMAAQofn?format=jpg&name=large" group-title="Eventos",PPV BOX WWE RAW (solo Eventos)
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138798
-#EXTINF:-1 tvg-id="" tvg-logo="https://s.yimg.com/ny/api/res/1.2/3EEN3zL5JbobsgGu6fMkug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk-/https://media.zenfs.com/en/wrestle_zone_910/8726fb1effb0efe9401a23536ae8d492" group-title="Eventos",PPV BOX WWE Smackdown (solo Eventos)
-http://galileatv.top:8080/deco-20/VumqaPUzpX/1138797
 #EXTINF:-1 tvg-id="" group-title="Películas",00s Replay
 http://galileatv.top:8080/deco-20/VumqaPUzpX/761955
 #EXTINF:-1 tvg-id="" group-title="Películas",48 Hours
@@ -4345,6 +4295,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/31065
 http://galileatv.top:8080/deco-20/VumqaPUzpX/767907
 #EXTINF:-1 tvg-id="" group-title="Variados",Escambia County TV ECTV (escambia County FL
 http://galileatv.top:8080/deco-20/VumqaPUzpX/762480
+#EXTINF:-1 tvg-id="" group-title="Variados",Estados Unidos vs Paraguay Op2
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138823
 #EXTINF:-1 tvg-id="" tvg-logo="https://pngset.com/images/estrella-tv-canal-symbol-logo-trademark-light-transparent-png-992221.png" group-title="Variados",Estrella TV
 http://galileatv.top:8080/deco-20/VumqaPUzpX/192491
 #EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://i.ibb.co/xKt0bzCH/Eventos-VIP4.png" group-title="Variados",Eventos Varios 1
@@ -4459,6 +4411,8 @@ http://galileatv.top:8080/deco-20/VumqaPUzpX/348973
 http://galileatv.top:8080/deco-20/VumqaPUzpX/197030
 #EXTINF:-1 tvg-id="Canal.History.2.(Panregional).cr" tvg-logo="http://visualservice.xyz:80/images/778cf37af9690ab4ca5c09faf4b92f9b.png" group-title="Variados",History 2
 http://galileatv.top:8080/deco-20/VumqaPUzpX/31054
+#EXTINF:-1 tvg-id="Canal.¡HOLA!.TV.cr" group-title="Variados",Hola
+http://galileatv.top:8080/deco-20/VumqaPUzpX/1138850
 #EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/1135993060469354496/nqpp2izj_400x400.png" group-title="Variados",Honduras Canal 10
 http://galileatv.top:8080/deco-20/VumqaPUzpX/298269
 #EXTINF:-1 tvg-id="" tvg-logo="http://visualservice.xyz:80/images/8fb4c360aae25a72bbfe9049d20c782d.png" group-title="Variados",Honduras Canal 11
