@@ -54,18 +54,39 @@ def us_keep(n):  # True solo si es un canal US nacional reconocible
     return any(k in nl for k in US_KW)
 
 out=[]
+def url_and_opts(lines,idx,extinf):
+    # Desde el #EXTINF en idx, salta lineas #EXTVLCOPT/#EXTGRP/#KODIPROP y devuelve
+    # (url, referrer, user-agent). Sin esto se perdian canales como Teletica 7 / Tigo
+    # Sports que llevan un #EXTVLCOPT:http-referrer entre el #EXTINF y la URL.
+    j=idx+1; ref=""; ua=""
+    while j<len(lines) and lines[j].startswith("#"):
+        lw=lines[j]
+        if "http-referrer=" in lw: ref=lw.split("http-referrer=",1)[1].strip()
+        elif "referer=" in lw.lower(): ref=re.split(r"(?i)referer=",lw,1)[1].strip()
+        if "http-user-agent=" in lw: ua=lw.split("http-user-agent=",1)[1].strip()
+        elif "user-agent=" in lw.lower(): ua=re.split(r"(?i)user-agent=",lw,1)[1].strip()
+        j+=1
+    url=lines[j].strip() if j<len(lines) and lines[j].startswith("http") else ""
+    # el referrer/UA tambien pueden venir como atributos del propio #EXTINF
+    if not ref:
+        m=re.search(r'http-referrer="([^"]+)"',extinf); ref=m.group(1) if m else ""
+    if not ua:
+        m=re.search(r'http-user-agent="([^"]+)"',extinf); ua=m.group(1) if m else ""
+    return url,ref.strip('"'),ua.strip('"')
 PAISES={"cr":"Costa Rica","mx":"México","ar":"Argentina","co":"Colombia","cl":"Chile","pe":"Perú","ec":"Ecuador","ve":"Venezuela","es":"España","us":"USA"}
 for cc,pais in PAISES.items():
     # iptv-org: curado, legal, tvg-id correctos, estado etiquetado
     L=fetch(f"https://iptv-org.github.io/iptv/countries/{cc}.m3u").splitlines()
     for i,l in enumerate(L):
-        if l.startswith("#EXTINF") and i+1<len(L) and L[i+1].startswith("http"):
+        if l.startswith("#EXTINF"):
+            u,ref,ua=url_and_opts(L,i,l)
+            if not u: continue
             if "[Not 24/7]" in l: continue                      # transmiten a ratos = ruido
             if cc!="cr" and "[Geo-blocked]" in l: continue      # geo-bloqueado de otro pais no corre desde CR
             if cc=="us" and not us_keep(strip_q(realname(l))): continue                 # solo US nacionales (whitelist)
             if cc=="us" and re.search(r"\b[WK][A-Z]{2,3}\b",realname(l)): continue       # quita estaciones locales (WBRZ...)
             if cc=="us" and realname(l).lower().strip().startswith("cbs news ") and "24/7" not in realname(l).lower(): continue  # CBS News regionales
-            out.append((0,f"Canales de {pais}",norm(strip_q(realname(l))),L[i+1].strip(),tvgid(l),tvglogo(l)))
+            out.append((0,f"Canales de {pais}",norm(strip_q(realname(l))),u,tvgid(l),tvglogo(l),ref,ua))
 
 CO={"españa":"Canales de España","espana":"Canales de España","costa rica":"Canales de Costa Rica","mexico":"Canales de México","méxico":"Canales de México","peru":"Canales de Perú","perú":"Canales de Perú","colombia":"Canales de Colombia","argentina":"Canales de Argentina","chile":"Canales de Chile","ecuador":"Canales de Ecuador","venezuela":"Canales de Venezuela"}
 def cat(g,n):
@@ -97,7 +118,7 @@ for i,l in enumerate(pt):
         c=cat(lastgroup(l),realname(l))
         if not c: continue
         nm=norm(clean(realname(l)))
-        if nm and 2<=len(nm)<55: out.append((0 if c.startswith("Canales") else ORD[c],c,nm,pt[i+1].strip(),tvgid(l),tvglogo(l)))
+        if nm and 2<=len(nm)<55: out.append((0 if c.startswith("Canales") else ORD[c],c,nm,pt[i+1].strip(),tvgid(l),tvglogo(l),"",""))
 
 # ---- EPG matching: asigna tvg-id real cruzando nombres con epgshare01 ----
 def deacc(s): return "".join(c for c in unicodedata.normalize("NFD",s) if unicodedata.category(c)!="Mn")
@@ -141,17 +162,19 @@ def epgmatch(name):
             ex=len(et-nt)
             if ex<bx: bx=ex;best=cid
     return best
-PREMIUM_EPG="http://galileatv.top:8080/xmltv.php?username=deco-20&password=VumqaPUzpX"
 COMBINED_EPG="https://raw.githubusercontent.com/duncanzm/latam-iptv/main/latam-epg.xml.gz"
-HEADER=f"{COMBINED_EPG},{PREMIUM_EPG}"   # 1 EPG combinado (8 paises) + premium
+HEADER=COMBINED_EPG   # solo EPG combinado (8 paises). El premium galileatv murio (auth:0)
 out.sort(key=lambda x:(x[0], x[1], x[2].lower()))
 seen=set(); f=open("latam.m3u","w"); f.write(f'#EXTM3U url-tvg="{HEADER}"\n'); w=0; epgn=0
-for o,g,n,u,tid,logo in out:
+for o,g,n,u,tid,logo,ref,ua in out:
     kk=(g,dkey(n))
     if kk in seen or not dkey(n): continue
     seen.add(kk)
     eid=epgmatch(n)                       # tvg-id real desde EPG (ignora el original, suele ser basura)
     if eid: epgn+=1
     attrs=f'tvg-id="{eid or tid}"' + (f' tvg-logo="{logo}"' if logo else "")
-    f.write(f'#EXTINF:-1 {attrs} group-title="{g}",{n}\n{u}\n'); w+=1
+    f.write(f'#EXTINF:-1 {attrs} group-title="{g}",{n}\n')
+    if ref: f.write(f'#EXTVLCOPT:http-referrer={ref}\n')   # canales que exigen referrer (Teletica 7, Tigo Sports...)
+    if ua:  f.write(f'#EXTVLCOPT:http-user-agent={ua}\n')
+    f.write(f'{u}\n'); w+=1
 f.close(); print("TOTAL:",w,"| con EPG:",epgn)
