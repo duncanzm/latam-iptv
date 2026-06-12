@@ -174,7 +174,9 @@ for o,g,n,u,tid,logo,ref,ua in out:
     if eid: epgn+=1
     attrs=f'tvg-id="{eid or tid}"' + (f' tvg-logo="{logo}"' if logo else "")
     f.write(f'#EXTINF:-1 {attrs} group-title="{g}",{n}\n')
-    if ref: f.write(f'#EXTVLCOPT:http-referrer={ref}\n')   # canales que exigen referrer (Teletica 7, Tigo Sports...)
+    if ref:
+        m=re.match(r"(https?://[^/]+)",ref); ref=(m.group(1)+"/") if m else ref  # recorta al dominio base: el path/query largo (con &?=) rompe el M3U y TiviMate no aplica el referrer -> 403. Teletica 7, Tigo Sports...
+        f.write(f'#EXTVLCOPT:http-referrer={ref}\n')
     if ua:  f.write(f'#EXTVLCOPT:http-user-agent={ua}\n')
     f.write(f'{u}\n'); w+=1
 f.close(); print("TOTAL:",w,"| con EPG:",epgn)
