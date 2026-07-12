@@ -11,7 +11,7 @@ https://videostream.shockmedia.com.ar/hls/abtvbariloche/abtvbariloche.m3u8
 #EXTINF:-1 tvg-id="AiredeSantaFe.ar@SD" tvg-logo="https://i.imgur.com/60vSWW0.png" group-title="Canales de Argentina",Aire de Santa Fe
 https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Canales de Argentina",AMC Latin America
-http://200.91.32.158:8080/amc/index.m3u8
+http://45.162.193.35:80/AMC/index.m3u8
 #EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-logo="https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png" group-title="Canales de Argentina",AMC Series Latin America
 http://200.91.32.158:8080/amcserieshd/index.m3u8
 #EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="Canales de Argentina",America TV
@@ -404,6 +404,8 @@ https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
 https://us.streaminghd.cl/apocalipsistvd/video.m3u8
 #EXTINF:-1 tvg-id="ArabTV.cl@SD" tvg-logo="https://i.imgur.com/mc1DBIc.png" group-title="Canales de Chile",Arabtv
 https://video03.logicahost.com.br/arabtvchile/arabtvchile/playlist.m3u8
+#EXTINF:-1 tvg-id="ARTV.(ARTV).pe" tvg-logo="https://i.imgur.com/rKP1ihL.png" group-title="Canales de Chile",ARTV
+http://45.162.193.35:80/ARTV/index.m3u8
 #EXTINF:-1 tvg-id="AutonomaTV.cl@SD" tvg-logo="https://i.imgur.com/kD6badL.png" group-title="Canales de Chile",Autonoma TV
 https://wifispeed.trapemn.tv:1936/comunales/autonoma-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AysenTV.cl@SD" tvg-logo="https://i.imgur.com/DmdBf9S.png" group-title="Canales de Chile",Aysen TV
@@ -445,7 +447,7 @@ https://freya.mivideo.pro/centraltv/video.m3u8
 #EXTINF:-1 tvg-id="ChileChannel.cl@SD" tvg-logo="https://i.imgur.com/F1it6fh.png" group-title="Canales de Chile",Chile Channel
 https://v2.tustreaming.cl/chilechannel/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Chilevisión.(CHV).cl" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="Canales de Chile",Chilevision
-http://38.250.127.17:9800/play/a05h/index.m3u8
+http://45.162.193.35:80/CHILEVISION/index.m3u8
 #EXTINF:-1 tvg-id="ChiloeRed25.cl@SD" tvg-logo="https://i.imgur.com/3tqrImm.png" group-title="Canales de Chile",Chiloe Red 25
 https://v2.tustreaming.cl/chiloered/index.m3u8
 #EXTINF:-1 tvg-id="ChinaChannel.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1769_China_Channel.png" group-title="Canales de Chile",China Channel
@@ -492,6 +494,8 @@ http://45.6.4.35/DISNEY/index.m3u8
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="Docevision.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1759_Docevision.png" group-title="Canales de Chile",Docevision
 https://live20.bozztv.com/giatvplayout7/giatv-208729/playlist.m3u8
+#EXTINF:-1 tvg-id="Docu.cl@SD" tvg-logo="https://i.imgur.com/7xvQ7jR.png" group-title="Canales de Chile",Docu.
+http://45.162.193.35:80/DOCU/index.m3u8
 #EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Canales de Chile",Dsports
 https://streamvidex.qzz.io/videx/dsportsar/index.m3u8
 #EXTINF:-1 tvg-id="DecimaTV.cl@SD" tvg-logo="https://i.imgur.com/eu8hDDc.png" group-title="Canales de Chile",Décima TV (ancud)
@@ -845,6 +849,8 @@ https://eu1.servers10.com:8081/8164/index.m3u8
 https://tvlatina.live:1936/8025/8025/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Cablenoticias.ar" tvg-logo="https://i.imgur.com/FfhOGR9.png" group-title="Canales de Colombia",Cablenoticias
 http://138.186.23.7:8082/CABLENOTICIAS/index.m3u8
+#EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="Canales de Colombia",Canal 1
+http://190.61.43.123:8081/CANAL1HD/index.m3u8
 #EXTINF:-1 tvg-id="Canal10SOLTV.co@SD" tvg-logo="https://i.imgur.com/kAbrHqt.jpeg" group-title="Canales de Colombia",Canal 10 SOL TV
 http://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal55TelemoriscoTV.co@SD" tvg-logo="https://i.imgur.com/9BwZyhM.jpg" group-title="Canales de Colombia",Canal 55 Telemorisco TV
@@ -982,6 +988,8 @@ https://jmp2.uk/plu-67d9b0ebc290c9499046e88f.m3u8
 https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8
 #EXTINF:-1 tvg-id="Reyali.co@SD" tvg-logo="https://i.imgur.com/YmFjnsF.png" group-title="Canales de Colombia",Reyali
 https://eu1.servers10.com:8081/8090/index.m3u8
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="Canales de Colombia",Rumba TV
+http://45.162.193.35:80/RUMBATV/index.m3u8
 #EXTINF:-1 tvg-id="SalsaLatinaFM.co@SD" tvg-logo="https://i.imgur.com/uDJPCju.png" group-title="Canales de Colombia",Salsa Latina FM
 https://panel.streamingmedia.com.co:3557/stream/play.m3u8
 #EXTINF:-1 tvg-id="SantelTV.co@SD" tvg-logo="https://i.imgur.com/jmJx0jo.png" group-title="Canales de Colombia",Santel TV
@@ -1062,6 +1070,8 @@ https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision3
 https://livecdnusa.enlace.plus/ejtv/smil:ejtv-hd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ExtremaTV.cr@SD" tvg-logo="https://i.imgur.com/E9AuhOU.png" group-title="Canales de Costa Rica",Extrema TV
 https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/playlist.m3u8
+#EXTINF:-1 tvg-id="FUTV.(Costa.Rica).cr" tvg-logo="https://i.imgur.com/f8BkLql.png" group-title="Canales de Costa Rica",FUTV
+http://190.61.90.17:40000/play/a03v/index.m3u8
 #EXTINF:-1 tvg-id="GAMTVcr.cr@SD" tvg-logo="https://i.ibb.co/xFCS7wM/GAMTVCR.png" group-title="Canales de Costa Rica",Gamtv.cr
 https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8
 #EXTINF:-1 tvg-id="GarabitoTV.cr@SD" tvg-logo="https://i.imgur.com/sAYNKJ8.png" group-title="Canales de Costa Rica",Garabito TV
@@ -1869,6 +1879,8 @@ https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.a+.mx" tvg-logo="https://i.imgur.com/TWk9gfd.png" group-title="Canales de México",A+
 http://45.189.62.33:8002/play/a0oc/index.m3u8
+#EXTINF:-1 tvg-id="AcustikTV.mx@SD" tvg-logo="https://i.imgur.com/dhiNIng.png" group-title="Canales de México",Acustik TV
+https://s5.mexside.net:1936/clientetv/clientetv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.ADN.40.mx" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="Canales de México",ADN 40
 http://45.189.62.33:8002/play/a0ob/index.m3u8
 #EXTINF:-1 tvg-id="AlcanceTV.mx@SD" tvg-logo="https://i.imgur.com/5nYjRlb.png" group-title="Canales de México",Alcance TV
@@ -1911,6 +1923,8 @@ http://177.245.131.133:8080/CONGRESO/index.m3u8
 https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Cinecanal.(Costa.Rica).cr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="Canales de México",Cinecanal Mexico
 http://177.245.131.133:8080/CINECANAL/index.m3u8
+#EXTINF:-1 tvg-id="Canal.Cinelatino.cl" tvg-logo="https://i.imgur.com/2V0R0xT.png" group-title="Canales de México",Cinelatino
+http://45.162.193.35:80/CINELATINO_HD/index.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Canales de México",Comedy Central Latin America
 http://181.119.93.83:8000/play/a1di/index.m3u8
 #EXTINF:-1 tvg-id="ConectaTV.mx@SD" tvg-logo="https://i.imgur.com/qEk0QGa.png" group-title="Canales de México",Conecta TV
@@ -2186,6 +2200,8 @@ https://srt.tvdatta.com/tvestelar/index.m3u8
 https://edgectc.com/CTC_SAN_RAFAEL/index.m3u8
 #EXTINF:-1 tvg-id="ExitosaTV.pe@SD" tvg-logo="https://i.imgur.com/pu0BSB7.png" group-title="Canales de Perú",Exitosa TV
 http://187.102.210.46/EXITOSA/index.m3u8
+#EXTINF:-1 tvg-id="FillkaTV.pe@SD" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/05/26/23/177981261781/1666ae69c89b_480_270.png" group-title="Canales de Perú",Fillka TV
+https://live-evg5.tv360.bitel.com.pe/bitel/fillka/playlist.m3u8
 #EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-logo="https://i.imgur.com/QdOGJes.png" group-title="Canales de Perú",Folklore TV
 https://play.folkloretv.pe/StreamSD/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Foro.TV.mx" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTarTiQHz2Pl0Bpx9g7JV_eaz4V4f61wtGyRw&s" group-title="Canales de Perú",Foro TV
@@ -2377,6 +2393,8 @@ https://live-evg7.tv360.bitel.com.pe/bitel/teleselva/playlist.m3u8
 https://live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisionTarapoto.pe@SD" tvg-logo="https://i.imgur.com/Dzen7sh.png" group-title="Canales de Perú",Television Tarapoto
 https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TeveEmpresa.pe@SD" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/04/07/02/1775503150878/c34840061c94_480_270.png" group-title="Canales de Perú",Teve Empresa
+https://live-evg8.tv360.bitel.com.pe/bitel/tvempresaSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Tevesur.pe@SD" tvg-logo="https://i.imgur.com/LcZ2Hhd.jpeg" group-title="Canales de Perú",Tevesur
 https://live-evg11.tv360.bitel.com.pe/bitel/tevesurSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Trivu.pe@SD" tvg-logo="https://i.imgur.com/QrUYjOS.png" group-title="Canales de Perú",Trivu
@@ -2495,7 +2513,13 @@ https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar
 #EXTINF:-1 tvg-id="CheddarU.us@SD" tvg-logo="https://i.imgur.com/o5SA7rz.png" group-title="Canales de USA",Cheddaru
 http://40.160.24.52/CHEDDAR_BUSINESS/index.m3u8
 #EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="Canales de USA",CNBC
-http://rezofoot.tv/CNBC/index.m3u8
+http://40.160.24.52/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/960px-C-SPAN_Logo_%282019%29.svg.png" group-title="Canales de USA",CSPAN
+http://40.160.24.52/C-SPAN_HD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN2.us@SD" tvg-logo="https://i.imgur.com/9B6XIQC.png" group-title="Canales de USA",CSPAN 2
+http://40.160.24.52/C-SPAN_2/index.m3u8
+#EXTINF:-1 tvg-id="CW.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="Canales de USA",CW
+http://40.160.24.52/CW/index.m3u8
 #EXTINF:-1 tvg-id="E.us@East" tvg-logo="https://i.imgur.com/TWFDkap.png" group-title="Canales de USA",E!
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 tvg-id="FOX.CHANNEL.(Fox.Channel).pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="Canales de USA",FOX
