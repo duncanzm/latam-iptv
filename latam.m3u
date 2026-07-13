@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="Canales de Argentina",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-id="AELatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Canales de Argentina",A&E Latin America South
-http://45.6.4.35/AE/index.m3u8
+http://200.91.32.158:8080/ae/index.m3u8
 #EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="Canales de Argentina",A24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
@@ -16,8 +16,6 @@ http://45.162.193.35:80/AMC/index.m3u8
 http://200.91.32.158:8080/amcserieshd/index.m3u8
 #EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="Canales de Argentina",America TV
 http://playcom.trapemn.tv:1935/transcoderip/america.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Argentina12.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Argentina12_2025.svg/330px-Argentina12_2025.svg.png" group-title="Canales de Argentina",Argentina/12
-http://45.6.4.35/IP_NOTICIAS/index.m3u8
 #EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar@SD" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="Canales de Argentina",Argentinísima Satelital
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1 tvg-id="AtccoCanal2.ar@SD" tvg-logo="https://i.imgur.com/RdwpYUT.png" group-title="Canales de Argentina",Atcco Canal 2
@@ -25,7 +23,7 @@ https://ola1.com.ar/atccohd/playlist.m3u8
 #EXTINF:-1 tvg-id="ATV.(ATV).pe" tvg-logo="https://i.ibb.co/rMBVDmZ/atvargentina-x1.png" group-title="Canales de Argentina",ATV Argentina
 https://tv.streaming.com.bo/atvargentina/index.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Canales de Argentina",AXN Latin America South
-http://45.6.4.35/AXN/index.m3u8
+http://200.91.32.158:8080/axn/index.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Canales de Argentina",Azahares Radio Multimedia
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BayresTV.ar@SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrroOZ4RYMYlzGqMQjiIO2QbRNVndEM9PiC-CaRn0PO2AoB_YKyrt6Eigzh4M1gPZaVn5udDL5YzrzxAmyQCj_HTF8Pszo46dk9dABt9TpepY43_IEzT80atZEMaiMcdrqt3lmxAbZYaLwCgr6vDUgV1HlvmhIOJ99UlwAhG2FoHgtCm13CWEugV7Bvg/w1200-h630-p-k-no-nu/bayres-tv-removebg-preview.png" group-title="Canales de Argentina",Bayres TV
@@ -37,7 +35,7 @@ https://mp.panelchs.com:1936/8028/ngrp:8028_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BravoTV.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png" group-title="Canales de Argentina",Bravo TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?did=b2201035844768f58630b7eef
 #EXTINF:-1 tvg-id="C5N.ar@SD" tvg-logo="https://i.imgur.com/5ZNZYjO.png" group-title="Canales de Argentina",C5N
-http://45.6.4.35/C5N/index.m3u8
+http://200.91.32.158:8080/c5n/index.m3u8
 #EXTINF:-1 tvg-id="Canal10Cordoba.ar@SD" tvg-logo="https://i.imgur.com/87WCHtd.png" group-title="Canales de Argentina",Canal 10 Cordoba
 https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal10MardelPlata.ar@SD" tvg-logo="https://i.imgur.com/bq29sfG.png" group-title="Canales de Argentina",Canal 10 Mar del Plata
@@ -157,7 +155,7 @@ https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
 #EXTINF:-1 tvg-id="CineAr.ar@SD" tvg-logo="https://i.imgur.com/Iozv4tT.png" group-title="Canales de Argentina",Cine.ar
 http://200.91.32.158:8080/cinear/index.m3u8
 #EXTINF:-1 tvg-id="Cinecanal.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="Canales de Argentina",Cinecanal South
-http://45.6.4.35/CINECANAL/index.m3u8
+http://45.162.193.35:80/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-id="CiudadMagazine.ar@SD" tvg-logo="https://i.imgur.com/V1xZV72.png" group-title="Canales de Argentina",Ciudad Magazine
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 http://190.7.19.197:232/play/a04l/index.m3u8
@@ -183,8 +181,6 @@ https://edgectc.com/DEPORTES_CTC_PLUS/index.m3u8
 http://45.185.163.75:8000/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Argentina",Disney Channel Latin America Panregional HD
 http://190.11.225.124:5000/live/disney_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Argentina",Disney Channel Latin America South
-http://45.6.4.35/DISNEY/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Canales de Argentina",Disney Jr. Latin America South
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Canales de Argentina",Dsports
@@ -194,7 +190,7 @@ http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EcoTV.ar@SD" tvg-logo="https://i.imgur.com/V2ldYVd.jpg" group-title="Canales de Argentina",Eco TV
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="ElGourmet.ar@South" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Canales de Argentina",El Gourmet South
-http://45.6.4.35/GOURMET/index.m3u8
+http://200.91.32.158:8080/gourmet/index.m3u8
 #EXTINF:-1 tvg-id="ElNueve.ar@SD" tvg-logo="https://i.imgur.com/cJHP7bU.png" group-title="Canales de Argentina",El Nueve
 http://playcom.trapemn.tv:1935/transcoderip/canal9.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ElSiete.ar@SD" tvg-logo="https://i.imgur.com/yKb7nfP.png" group-title="Canales de Argentina",El Siete
@@ -205,19 +201,19 @@ https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Canales de Argentina",Encuentro
 http://200.91.32.158:8080/encuentro/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Europa.Europa.mx" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Canales de Argentina",Europa Europa
-http://45.6.4.35/EUROPA/index.m3u8
+http://200.91.32.158:8080/europa/index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@HispanicAmerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Canales de Argentina",Fifa+ Hispanic America
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
+#EXTINF:-1 tvg-id="FolcloreandoTV.ar@SD" tvg-logo="https://folcloreando.com/wp-content/uploads/elementor/thumbs/logo-qvcz16ulfxe7qqvftihvlcoku8l2hux59qcndiy3qo.png" group-title="Canales de Argentina",Folcloreando TV
+https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Fox.Sports.(México).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Canales de Argentina",FOX Sports
-http://45.6.4.35/FOX_SPORT/index.m3u8
+http://200.91.32.158:8080/foxsports/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Fox.Sports.2.(México).mx" tvg-logo="https://i.imgur.com/oG7HzEf.png" group-title="Canales de Argentina",FOX Sports 2
 http://200.91.32.158:8080/foxsports2/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Fox.Sports.3.(México).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/960px-Fox_sports_3_logo.svg.png" group-title="Canales de Argentina",FOX Sports 3
 http://200.91.32.158:8080/foxsports3/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="Canales de Argentina",FX Latin America South
-http://45.6.4.35/FX/index.m3u8
-#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Canales de Argentina",History Latin America South
-http://45.6.4.35/HISTORY/index.m3u8
+http://72.1.184.5:8089/play/a05i/index.m3u8
 #EXTINF:-1 tvg-id="IPNoticias.ar@SD" tvg-logo="https://i.imgur.com/dbu9nx4.png" group-title="Canales de Argentina",IP Noticias
 https://twitch-m3u8.bastypro112.workers.dev/argentina_12tw/index.m3u8
 #EXTINF:-1 tvg-id="ItelTVCanal2.ar@SD" tvg-logo="https://i.imgur.com/OxmpRDx.png" group-title="Canales de Argentina",Itel TV Canal 2
@@ -225,7 +221,7 @@ https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 #EXTINF:-1 tvg-id="KpopMix.ar@SD" tvg-logo="https://tvomix.com/Logos/Kpopmix.png" group-title="Canales de Argentina",Kpop Mix
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
 #EXTINF:-1 tvg-id="LaNacionPlus.ar@SD" tvg-logo="https://i.imgur.com/Gj1kqH5.png" group-title="Canales de Argentina",La Nacion
-http://45.6.4.35/LA_NACION/index.m3u8
+http://200.91.32.158:8080/lnmas/index.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar@SD" tvg-logo="https://www.appcreator24.com/srv/imgs/gen/3544498_ico.png" group-title="Canales de Argentina",Lamil35 TV
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 #EXTINF:-1 tvg-id="LinkTV.ar@SD" tvg-logo="https://i.ibb.co/ncYZY6T/logo-3.png" group-title="Canales de Argentina",Link TV
@@ -300,7 +296,7 @@ https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Sony.(Costa.Rica).cr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Canales de Argentina",Sony Channel
 http://138.121.15.230:9002/SONY/index.m3u8
 #EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Canales de Argentina",Star Channel Latin America South
-http://45.6.4.35/FOX/index.m3u8
+http://200.91.32.158:8080/starchannel/index.m3u8
 #EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="Canales de Argentina",Studio Universal Latin America South
 http://200.91.32.158:8080/studiouniversal/index.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-logo="https://i.imgur.com/ZcD0rUP.png" group-title="Canales de Argentina",T5 Satelital
@@ -353,7 +349,7 @@ https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/VVP0MGDRUILC8BDR6S0M/hls3/now
 #EXTINF:-1 tvg-id="VillaManteroTV.ar@SD" tvg-logo="https://i.imgur.com/mmEenTm.png" group-title="Canales de Argentina",Villa Mantero TV
 https://micanal.ovh/livestreams/515.AUTOOAAZ721F.m3u8
 #EXTINF:-1 tvg-id="Volver.ar@SD" tvg-logo="https://i.imgur.com/PYvSZMb.png" group-title="Canales de Argentina",Volver
-http://45.6.4.35/VOLVER/index.m3u8
+http://200.91.32.158:8080/volver/index.m3u8
 #EXTINF:-1 tvg-id="XamaTV.ar@SD" tvg-logo="https://i.imgur.com/dcNzVNN.png" group-title="Canales de Argentina",Xama TV
 https://srs.unsj.edu.ar/live/xama/xama.flv
 #EXTINF:-1 tvg-id="XtremaAccion.ar@SD" tvg-logo="https://i.imgur.com/z5NwizH.png" group-title="Canales de Argentina",Xtrema Accion
@@ -488,8 +484,6 @@ https://s1.radiumcast.top/memfs/674b2d4f-7d6e-49be-9c6c-3094868259d9.m3u8
 http://45.185.163.75:8000/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Chile",Disney Channel Latin America Panregional HD
 http://190.11.225.124:5000/live/disney_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Chile",Disney Channel Latin America South
-http://45.6.4.35/DISNEY/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Canales de Chile",Disney Jr. Latin America South
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="Docevision.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1759_Docevision.png" group-title="Canales de Chile",Docevision
@@ -640,6 +634,8 @@ https://lbgo.bozztv.com/ssh101/ssh101/plazatv3/playlist.m3u8
 https://polartv.webredirect.org/memfs/319ac83c-e602-4e91-8104-2b5501380b5e.m3u8
 #EXTINF:-1 tvg-id="Portalfoxmix.cl@SD" tvg-logo="https://i.imgur.com/ZEBOeGe.png" group-title="Canales de Chile",Portalfoxmix
 https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
+#EXTINF:-1 tvg-id="PreludioTV.cl@SD" tvg-logo="https://www.preludioradio.cl/wp-content/uploads/2023/06/logopreludio.png" group-title="Canales de Chile",Preludio TV
+https://tv.arkeo.cl:1936/preludio/preludio/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimiciaVida.cl@SD" tvg-logo="https://i.imgur.com/hnkVwTG.png" group-title="Canales de Chile",Primicia Vida
 https://mc.servidor.stream:19360/8248/8248.m3u8
 #EXTINF:-1 tvg-id="PrimitivosTV.cl@SD" tvg-logo="https://i.imgur.com/w9WpbTN.jpeg" group-title="Canales de Chile",Primitivos TV
@@ -809,7 +805,7 @@ https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8
 #EXTINF:-1 tvg-id="VersoTV.cl@SD" tvg-logo="https://i.imgur.com/zdv4IF8.png" group-title="Canales de Chile",Verso TV
 https://verso.coopcom.cl/live/SHf6GLCpn4hDSpWdzaDzgX0ciU82/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Vía.X.cl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png" group-title="Canales de Chile",Via X
-http://45.170.130.224:8000/play/a025/index.m3u8
+http://45.162.193.35/VIAX/index.m3u8
 #EXTINF:-1 tvg-id="VidaNuevaTV.cl@SD" tvg-logo="https://i.imgur.com/lxv1lre.png" group-title="Canales de Chile",Vida Nueva TV
 https://mc.servidor.stream:19360/8240/8240.m3u8
 #EXTINF:-1 tvg-id="VisionPlusTV.cl@SD" tvg-logo="https://i.imgur.com/mpNcG5F.png" group-title="Canales de Chile",Vision Plus TV
@@ -820,7 +816,7 @@ https://5eaccbab48461.streamlock.net:1936/8264/8264/playlist.m3u8
 #EXTINF:-1 tvg-id="Wapp.cl@SD" tvg-logo="https://i.imgur.com/Bv1yJ1d.png" group-title="Canales de Chile",Wapp
 https://stream.wapptv.cl/video/index.m3u8
 #EXTINF:-1 tvg-id="Canal.Zona.Latina.cl" tvg-logo="https://i.imgur.com/lMyZZtk.png" group-title="Canales de Chile",Zona Latina
-http://45.170.130.224:8000/play/a00x/index.m3u8
+http://45.162.193.35/ZONALATINA/index.m3u8
 #EXTINF:-1 tvg-id="ZonaPlayTV.cl@SD" tvg-logo="https://i.imgur.com/GewcpHv.png" group-title="Canales de Chile",Zona Play TV
 https://tv1.mediacp.eu:3131/live/dilxbgxylive.m3u8
 #EXTINF:-1 tvg-id="ZonaSurTV.cl@SD" tvg-logo="https://i.imgur.com/b1OtwDg.png" group-title="Canales de Chile",Zona Sur TV
@@ -1175,8 +1171,6 @@ https://video2.lhdserver.es/pjtv/live.m3u8
 http://45.185.163.75:8000/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Ecuador",Disney Channel Latin America Panregional HD
 http://190.11.225.124:5000/live/disney_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Ecuador",Disney Channel Latin America South
-http://45.6.4.35/DISNEY/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Canales de Ecuador",Disney Jr. Latin America South
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="DSPORTS.(COL).(DTSC).co" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Canales de Ecuador",Dsports
@@ -1513,6 +1507,8 @@ https://limited39.todostreaming.es/live/salome-livestream.m3u8
 https://jmp2.uk/plu-6181404ef48321000797bc41.m3u8
 #EXTINF:-1 tvg-id="InteralmeriaTV.es@SD" tvg-logo="https://i.imgur.com/ulSkAjZ.png" group-title="Canales de España",Interalmeria TV
 https://interalmeria.tv/directo/live.m3u8
+#EXTINF:-1 tvg-id="KinoKazka.es@SD" tvg-logo="https://i.imgur.com/y6SWpsX.png" group-title="Canales de España",Kinokazka
+http://176.122.125.10:8080/KinoKazka/index.m3u8
 #EXTINF:-1 tvg-id="KTO.fr@SD" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="Canales de España",KTO
 http://41.205.77.102/KTO/index.m3u8
 #EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-logo="https://i.ibb.co/MxJNPHsn/La-1.png" group-title="Canales de España",La 1
@@ -2182,8 +2178,6 @@ https://s1.tvdatta.com:3978/live/diasporatvlive.m3u8
 http://45.185.163.75:8000/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Perú",Disney Channel Latin America Panregional HD
 http://190.11.225.124:5000/live/disney_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Canales de Perú",Disney Channel Latin America South
-http://45.6.4.35/DISNEY/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Canales de Perú",Disney Jr. Latin America South
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="DobleCTelevision.pe@SD" tvg-logo="https://i.imgur.com/2zCD4TB.png" group-title="Canales de Perú",Doble C Television
