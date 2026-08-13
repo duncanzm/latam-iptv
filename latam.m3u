@@ -1136,7 +1136,7 @@ https://liveingesta318.cdnmedia.tv/101weblive/smil:sevilla.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="12tv.es@SD" tvg-logo="https://i.imgur.com/VSTgXsh.png" group-title="Canales de España",12TV Alicante
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8
-#EXTINF:-1 tvg-id="Canal.24.Horas.(TVE).ar" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="Canales de España",24 Horas
+#EXTINF:-1 tvg-id="24HorasCanarias.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="Canales de España",24 Horas Canarias
 http://185.47.212.25:8080/24h_HD/index.m3u8
 #EXTINF:-1 tvg-id="28kanala.es@SD" tvg-logo="https://i.imgur.com/DyvK28q.png" group-title="Canales de España",28 Kanala
 https://streaming.28kanala.eus/hls/z.m3u8
@@ -1191,8 +1191,8 @@ https://jmp2.uk/plu-5f1aca0b4e448e00075e7c5e.m3u8
 https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-id="Canal1MarMenorTorrePacheco.es@SD" tvg-logo="https://i.imgur.com/MQOwCdZ.png" group-title="Canales de España",Canal 1 Mar Menor-torre Pacheco
 https://directo.tuwebtv.es/canal1.m3u8
-#EXTINF:-1 tvg-id="24HorasCanarias.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="Canales de España",Canal 24 Horas Canarias
-https://ztnr.rtve.es/ztnr/5473142.m3u8
+#EXTINF:-1 tvg-id="Canal.24.Horas.(TVE).ar" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="Canales de España",Canal 24 Horas
+https://ztnr.rtve.es/ztnr/1694255.m3u8
 #EXTINF:-1 tvg-id="24HorasCatalunya.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="Canales de España",Canal 24 Horas Catalunya
 https://ztnr.rtve.es/ztnr/4952053.m3u8
 #EXTINF:-1 tvg-id="Canal25TV.es@SD" tvg-logo="https://i.imgur.com/p6YA5k0.png" group-title="Canales de España",Canal 25 TV
@@ -1626,8 +1626,6 @@ https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?D
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisiondeSanVicente.es@SD" tvg-logo="https://i.imgur.com/oLnrf0d.png" group-title="Canales de España",TV San Vicente
 https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8
-#EXTINF:-1 tvg-id="TVEInternacionalEurope.es@HD" tvg-logo="https://i.ibb.co/RpKLCMvp/tve.png" group-title="Canales de España",TVE Internacional Europe-asia HD
-https://siarlive.psce.pw/channel5
 #EXTINF:-1 tvg-id="Star.TVE.HD.co" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Canales de España",TVE Star
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 #EXTINF:-1 tvg-id="TVOJesus.es@SD" tvg-logo="https://tvomix.com/Logos/Tvojesus.png" group-title="Canales de España",TVO Jesus
@@ -2249,6 +2247,10 @@ https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
 https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="Canales de USA",CNBC
 http://40.160.24.56/CNBC_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/960px-C-SPAN_Logo_%282019%29.svg.png" group-title="Canales de USA",CSPAN
+http://40.160.24.56/C-SPAN_HD_SD/index.m3u8
+#EXTINF:-1 tvg-id="CSPAN2.us@SD" tvg-logo="https://i.imgur.com/9B6XIQC.png" group-title="Canales de USA",CSPAN 2
+http://40.160.24.56/C-SPAN_2_SD/index.m3u8
 #EXTINF:-1 tvg-id="E.us@East" tvg-logo="https://i.imgur.com/TWFDkap.png" group-title="Canales de USA",E!
 http://23.237.104.106:8080/USA_E/index.m3u8
 #EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png" group-title="Canales de USA",FOX Business Network
