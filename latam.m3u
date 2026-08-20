@@ -1730,6 +1730,8 @@ https://estrellatv-oando.amagi.tv/playlist.m3u8
 http://190.61.90.17:40000/play/a0hk/index.m3u8
 #EXTINF:-1 tvg-id="ExpresaTV.mx@SD" tvg-logo="https://i.imgur.com/kFVVGrg.png" group-title="Canales de México",Expresa TV
 https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="GikTVMX.mx@SD" tvg-logo="https://i.imgur.com/Gwz78jZ.png" group-title="Canales de México",Giktvmx
+https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IcrtvColima.mx@SD" tvg-logo="https://i.imgur.com/iUks0ot.png" group-title="Canales de México",ICRTV Colima
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ImagenTV.mx@SD" tvg-logo="https://i.imgur.com/lKrRvtS.png" group-title="Canales de México",Imagen TV
