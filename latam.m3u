@@ -1658,7 +1658,7 @@ https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 tvg-id="AcustikTV.mx@SD" tvg-logo="https://i.imgur.com/dhiNIng.png" group-title="Canales de México",Acustik TV
 https://s5.mexside.net:1936/clientetv/clientetv/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal.ADN.40.mx" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="Canales de México",ADN 40
+#EXTINF:-1 tvg-id="ADN40.mx@SD" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="Canales de México",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 #EXTINF:-1 tvg-id="AlcanceTV.mx@SD" tvg-logo="https://i.imgur.com/5nYjRlb.png" group-title="Canales de México",Alcance TV
 https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
