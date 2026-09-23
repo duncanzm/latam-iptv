@@ -1211,8 +1211,6 @@ https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/605795588500
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
 #EXTINF:-1 tvg-id="Actualidad360.es@SD" tvg-logo="https://i.imgur.com/3YeTu0n.png" group-title="Canales de España",Actualidad 360
 https://jmp2.uk/plu-67517fae5534bb0008187997.m3u8
-#EXTINF:-1 tvg-id="AmericasNextTopModel.de@ES" tvg-logo="https://images.pluto.tv/channels/686cd84603ad75cfd132d672/colorLogoPNG_1751963785234.png" group-title="Canales de España",America's Next Top Model (germany)
-https://jmp2.uk/plu-686cd84603ad75cfd132d672.m3u8
 #EXTINF:-1 tvg-id="Anaylos7.us@Spain" tvg-logo="https://i.imgur.com/X5g6gXS.png" group-title="Canales de España",Ana y los 7
 https://jmp2.uk/plu-5f1acce7f17797000718f9be.m3u8
 #EXTINF:-1 tvg-id="Andromeda.us@Spain" tvg-logo="https://i.imgur.com/6ot2lmd.png" group-title="Canales de España",Andromeda
@@ -1375,8 +1373,6 @@ https://jmp2.uk/plu-67517f923a61d40008c451f0.m3u8
 https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
 #EXTINF:-1 tvg-id="Huelva.TV.es" tvg-logo="https://i.imgur.com/hEnpvKj.png" group-title="Canales de España",Huelva TV
 https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
-#EXTINF:-1 tvg-id="iCarly.de@ES" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png" group-title="Canales de España",Icarly (germany) ES
-https://jmp2.uk/plu-6181404ef48321000797bc41.m3u8
 #EXTINF:-1 tvg-id="InteralmeriaTV.es@SD" tvg-logo="https://i.imgur.com/ulSkAjZ.png" group-title="Canales de España",Interalmeria TV
 https://interalmeria.tv/directo/live.m3u8
 #EXTINF:-1 tvg-id="KinoKazka.es@SD" tvg-logo="https://i.imgur.com/y6SWpsX.png" group-title="Canales de España",Kinokazka
@@ -1403,8 +1399,6 @@ https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 https://app.viloud.tv/hls/channel/9c88161fe675b59d4b008c776f033960.m3u8
 #EXTINF:-1 tvg-id="LancelotTV.es@SD" tvg-logo="https://i.imgur.com/RlzVIJP.png" group-title="Canales de España",Lancelot TV
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
-#EXTINF:-1 tvg-id="LasTortugasNinja.de@ES" tvg-logo="https://images.pluto.tv/channels/61373f1a12dd9f00077dcd6f/colorLogoPNG.png" group-title="Canales de España",Las Tortugas Ninja (germany)
-https://jmp2.uk/plu-61373f1a12dd9f00077dcd6f.m3u8
 #EXTINF:-1 tvg-id="LigadeCampeonesporMovistarPlusPlus.es@SD" group-title="Canales de España",Liga de Campeones por Movistar Plus+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 VLC/3.0.21 LibVLC/3.0.21
 https://7nyaler.streamhostingcdn.top/stream/36/index.m3u8
@@ -1432,10 +1426,6 @@ https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 http://ventdelnord.tv:8080/mola/directe.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@ES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Canales de España",Mr Bean Animated ES
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
-#EXTINF:-1 tvg-id="MTVCatfishTVShow.de@ES" tvg-logo="https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG_1750862971704.png" group-title="Canales de España",MTV Catfish TV Show ES
-https://jmp2.uk/plu-5f1ab3c7778230000735cf41.m3u8
-#EXTINF:-1 tvg-id="MTVDating.de@ES" tvg-logo="https://images.pluto.tv/channels/5caf330ea5068259a32320fd/colorLogoPNG.png" group-title="Canales de España",MTV Dating (germany) ES
-https://jmp2.uk/plu-600169ec77e6f70008fa9cf0.m3u8
 #EXTINF:-1 tvg-id="MTVEmbarazadaalos16.de@ES" tvg-logo="https://images.pluto.tv/channels/5f98537a5a4341000733aefe/colorLogoPNG.png" group-title="Canales de España",MTV Embarazada a los 16
 https://jmp2.uk/plu-5f98537a5a4341000733aefe.m3u8
 #EXTINF:-1 tvg-id="MTVGeordies.de@ES" tvg-logo="https://images.pluto.tv/channels/627d3176d7dfa500077042f1/colorLogoPNG.png" group-title="Canales de España",MTV Geordies
@@ -1444,10 +1434,6 @@ https://jmp2.uk/plu-627d3176d7dfa500077042f1.m3u8
 https://jmp2.uk/plu-62ac3d7dc23b400008ae5b5a.m3u8
 #EXTINF:-1 tvg-id="MTVOriginals.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1aadf373bed3000794d1d7/colorLogoPNG.png" group-title="Canales de España",MTV Originals
 https://jmp2.uk/plu-5f1aadf373bed3000794d1d7.m3u8
-#EXTINF:-1 tvg-id="MTVReality.de@ES" tvg-logo="https://images.pluto.tv/channels/685136fb33a52de120bbb086/colorLogoPNG_1780303948285.png" group-title="Canales de España",MTV Reality (germany) ES
-https://jmp2.uk/plu-6130d8dc943001000708548d.m3u8
-#EXTINF:-1 tvg-id="MTVTeenMom.de@ES" tvg-logo="https://images.pluto.tv/channels/5cffcf5686dfe15595fb3f56/colorLogoPNG_1750154727513.png" group-title="Canales de España",MTV Teen Mom (germany) ES
-https://jmp2.uk/plu-604f81a49ef73300070e554f.m3u8
 #EXTINF:-1 tvg-id="MTVVerguenzaajena.de@ES" tvg-logo="https://images.pluto.tv/channels/63eb9495a8b227000841bf64/colorLogoPNG.png" group-title="Canales de España",MTV Verguenza Ajena
 https://jmp2.uk/plu-63eb9495a8b227000841bf64.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Canales de España",Mytime Movie Network (spain)
@@ -1473,8 +1459,6 @@ https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-id="OnePiece.us@Spain" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Canales de España",One Piece Spain
 https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8
-#EXTINF:-1 tvg-id="ParamountNetworkdePlutoTV.de@ES" tvg-logo="https://images.pluto.tv/channels/68d566603d3a9580eb461251/colorLogoPNG_1762199133146.png" group-title="Canales de España",Paramount Network de Pluto TV
-https://jmp2.uk/plu-68d566603d3a9580eb461251.m3u8
 #EXTINF:-1 tvg-id="PenedesTelevisio.es@SD" tvg-logo="https://i.imgur.com/mNuv3OL.png" group-title="Canales de España",Penedes Televisio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR=
@@ -1484,22 +1468,12 @@ https://s153.ipcamlive.com/streams/99pic5fsknh2gnvhx/stream.m3u8
 https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAnimales.de@ES" tvg-logo="https://images.pluto.tv/channels/600ae6a78d801e0007117d21/colorLogoPNG.png" group-title="Canales de España",Pluto TV Animales
 https://jmp2.uk/plu-600ae6a78d801e0007117d21.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAnime.de@ES" tvg-logo="https://images.pluto.tv/channels/608181d420fc8500075f612a/colorLogoPNG_1747395463053.png" group-title="Canales de España",Pluto TV Anime (germany) ES
-https://jmp2.uk/plu-608035b8d8705f0007260287.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCatastrofes.de@ES" tvg-logo="https://images.pluto.tv/channels/645a309c5a0cd5000873f609/colorLogoPNG.png" group-title="Canales de España",Pluto TV Catastrofes
 https://jmp2.uk/plu-645a309c5a0cd5000873f609.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineAccion.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1ac2591dd8880007bb7d6d/colorLogoPNG_1733440545178.png" group-title="Canales de España",Pluto TV Cine Accion (germany)
-https://jmp2.uk/plu-5f1ac2591dd8880007bb7d6d.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineClasico.de@ES" tvg-logo="https://images.pluto.tv/channels/61373bb45168fe000773eecd/colorLogoPNG.png" group-title="Canales de España",Pluto TV Cine Clasico (germany)
-https://jmp2.uk/plu-61373bb45168fe000773eecd.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCineComedia.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1ac8099c49f600076579b2/colorLogoPNG_1769092378955.png" group-title="Canales de España",Pluto TV Cine Comedia (germany)
 https://jmp2.uk/plu-5f1ac8099c49f600076579b2.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCinedeautor.de@ES" tvg-logo="https://images.pluto.tv/channels/60cc807324d60a0007708dc8/colorLogoPNG.png" group-title="Canales de España",Pluto TV Cine de Autor
 https://jmp2.uk/plu-60cc807324d60a0007708dc8.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineDrama.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1ac947dcd00d0007937c08/colorLogoPNG.png" group-title="Canales de España",Pluto TV Cine Drama (germany)
-https://jmp2.uk/plu-5f1ac947dcd00d0007937c08.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineEstelar.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1ac1f1b66c76000790ef27/colorLogoPNG.png" group-title="Canales de España",Pluto TV Cine Estelar (germany)
-https://jmp2.uk/plu-5f1ac1f1b66c76000790ef27.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCineRomantico.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1ac9a2d3611d0007a844bb/colorLogoPNG_1747044085204.png" group-title="Canales de España",Pluto TV Cine Romantico
 https://jmp2.uk/plu-5f1ac9a2d3611d0007a844bb.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCocina.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1acdaa8ba90f0007d5e760/colorLogoPNG.png" group-title="Canales de España",Pluto TV Cocina
@@ -1516,18 +1490,12 @@ https://jmp2.uk/plu-65bd0f53dc10a40008e68b96.m3u8
 https://jmp2.uk/plu-66b0dfa1d512590008bfa7fd.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHistoria.de@ES" tvg-logo="https://images.pluto.tv/channels/61cd7b49543066000713b620/colorLogoPNG.png" group-title="Canales de España",Pluto TV Historia (germany)
 https://jmp2.uk/plu-61cd7b49543066000713b620.m3u8
-#EXTINF:-1 tvg-id="PlutoTVHorror.de@ES" tvg-logo="https://images.pluto.tv/channels/62f4f4b88157cf00075c22db/colorLogoPNG.png" group-title="Canales de España",Pluto TV Horror (germany) ES
-https://jmp2.uk/plu-6267d4d1fb694f0007a6af0e.m3u8
 #EXTINF:-1 tvg-id="PlutoTVImpacto.de@ES" tvg-logo="https://images.pluto.tv/channels/68adc697116b783a33f99e6c/colorLogoPNG_1760448745473.png" group-title="Canales de España",Pluto TV Impacto
 https://jmp2.uk/plu-68adc697116b783a33f99e6c.m3u8
 #EXTINF:-1 tvg-id="PlutoTVInvasionAlien.de@ES" tvg-logo="https://images.pluto.tv/channels/654a35ce346f420008d5c36e/colorLogoPNG.png" group-title="Canales de España",Pluto TV Invasion Alien
 https://jmp2.uk/plu-654a35ce346f420008d5c36e.m3u8
-#EXTINF:-1 tvg-id="PlutoTVJunior.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1aa9bcd8160700076d45d1/colorLogoPNG_1747402544424.png" group-title="Canales de España",Pluto TV Junior (germany)
-https://jmp2.uk/plu-5f1aa9bcd8160700076d45d1.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKDrama.de@ES" tvg-logo="https://images.pluto.tv/channels/6475bfec536e0c0008858e9f/colorLogoPNG.png" group-title="Canales de España",Pluto TV K-drama
 https://jmp2.uk/plu-6475bfec536e0c0008858e9f.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKids.de@ES" tvg-logo="https://images.pluto.tv/channels/5f1aab1d29b39600073e243f/colorLogoPNG_1750751398943.png" group-title="Canales de España",Pluto TV Kids (germany)
-https://jmp2.uk/plu-5f1aab1d29b39600073e243f.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKidsClassics.de@ES" tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" group-title="Canales de España",Pluto TV Kids Classics
 https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
 #EXTINF:-1 tvg-id="PlutoTVMelrosePlace.us@Spain" tvg-logo="https://i.imgur.com/hXDj0fV.png" group-title="Canales de España",Pluto TV Melrose Place
