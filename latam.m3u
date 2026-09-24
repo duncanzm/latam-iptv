@@ -217,6 +217,10 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="Canales de Argentina",NG Federal
 http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal.Pakapaka.ar" tvg-logo="https://i.imgur.com/GJbRWwH.png" group-title="Canales de Argentina",Pakapaka
+https://xyktmobile00.s.gy/PPV910_PAKAKA_ARG
+#EXTINF:-1 tvg-id="PlimPlim.ar@SD" tvg-logo="https://i.imgur.com/MYc8srh.png" group-title="Canales de Argentina",Plim Plim
+https://xyktmobile00.s.gy/PPV911_CANCION_BEBE
 #EXTINF:-1 tvg-id="PowerMaxRadioTV.ar@SD" tvg-logo="https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg" group-title="Canales de Argentina",Power Max Radio TV
 https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
 #EXTINF:-1 tvg-id="PowerHD.ar@SD" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="Canales de Argentina",Powerhd
@@ -936,6 +940,8 @@ http://138.121.15.230:9002/TELECARIBE/index.m3u8
 #EXTINF:-1 tvg-id="TELEMEDELLIN.co" tvg-logo="https://i.imgur.com/GnxzRTC.png" group-title="Canales de Colombia",Telemedellin
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta118.cdnmedia.tv/tvtelemedellinlive/smil:rtmp01.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Telepacifico.co" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="Canales de Colombia",Telepacifico
+http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
 #EXTINF:-1 tvg-id="TeleQuindio.co@SD" tvg-logo="https://i.imgur.com/bJWj5ja.png" group-title="Canales de Colombia",Telequindio
 https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesangil.co@SD" tvg-logo="https://i.ibb.co/27Pzdvw/cropped-TELESANGIL-LOGO-1.png" group-title="Canales de Colombia",Telesangil
@@ -2081,6 +2087,8 @@ https://tv.ondadigital.pe/ondadigital/index.m3u8
 https://live-evg5.tv360.bitel.com.pe/bitel/onda/playlist.m3u8
 #EXTINF:-1 tvg-id="OzonoTV.pe@SD" tvg-logo="https://i.imgur.com/Wkdibpv.png" group-title="Canales de Perú",Ozono TV
 https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal.Pakapaka.ar" tvg-logo="https://i.imgur.com/GJbRWwH.png" group-title="Canales de Perú",Pakapaka
+https://xyktmobile00.s.gy/PPV910_PAKAKA_ARG
 #EXTINF:-1 tvg-id="PANAMERICANA.TELEVISION.(Panamericana.TV).pe" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="Canales de Perú",Panamericana TV
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
 #EXTINF:-1 tvg-id="PBO.pe@SD" tvg-logo="https://i.imgur.com/vBpxX4S.png" group-title="Canales de Perú",PBO
