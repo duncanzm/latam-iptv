@@ -205,7 +205,8 @@ https://cloud.tvomix.com/KPOPMIX/index.m3u8
 #EXTINF:-1 tvg-id="La100.ar@SD" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/CZJMM4BJVRFANO4VGMMYWSTEVE.png" group-title="Canales de Argentina",La 100
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar@SD" tvg-logo="https://www.appcreator24.com/srv/imgs/gen/3544498_ico.png" group-title="Canales de Argentina",Lamil35 TV
-https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
+#EXTVLCOPT:http-referrer=https://lamil35.streamingvideo.com.ar/
+https://streamingvideo.com.ar/hls/eea3c96df781e0a3.m3u8
 #EXTINF:-1 tvg-id="MasFM.ar@SD" tvg-logo="https://i.imgur.com/TJ4gWQM.png" group-title="Canales de Argentina",Mas FM
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-logo="https://i.imgur.com/sfd87LX.png" group-title="Canales de Argentina",Mercurio Noticias
@@ -272,6 +273,8 @@ https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecinco.es" tvg-logo="https://i.imgur.com/ZDenyAE.png" group-title="Canales de Argentina",Telecinco
 https://videohd.live:19360/8016/8016.m3u8
+#EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="Canales de Argentina",Telefe
+http://45.173.231.22:8000/play/a053/index.m3u8
 #EXTINF:-1 tvg-id="TelefeBuenosAires.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="Canales de Argentina",Telefe Buenos Aires
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1 tvg-id="TelefeInterior.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="Canales de Argentina",Telefe Interior
@@ -827,6 +830,8 @@ https://canal.mediaserver.com.co/live/oracionconson.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/pyctelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="RCN.co" tvg-logo="https://i.imgur.com/5PhTaHp.png" group-title="Canales de Colombia",Canal RCN
 http://138.121.15.230:9002/RCN/index.m3u8
+#EXTINF:-1 tvg-id="CanalTelesantiago.co@SD" tvg-logo="https://i.imgur.com/DmkH5p8.jpg" group-title="Canales de Colombia",Canal Telesantiago
+https://stream.canaltelesantiago.com:8000/play/TELESANTIAGO/index.m3u8
 #EXTINF:-1 tvg-id="Canal.TRO.co" tvg-logo="https://i.imgur.com/ZS5WTCd.png" group-title="Canales de Colombia",Canal TRO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta118.cdnmedia.tv/canaltro2live/smil:live.smil/playlist.m3u8
@@ -846,6 +851,8 @@ http://138.121.15.230:9002/CITY-TV/index.m3u8
 https://cdn1.cmbcolombia.tv/bethesda/video.m3u8
 #EXTINF:-1 tvg-id="CNCBugavision.co@SD" tvg-logo="https://i.imgur.com/zJAwnvd.png" group-title="Canales de Colombia",CNC Bugavision
 https://movil.ejeserver.com/live/cncbuga.m3u8
+#EXTINF:-1 tvg-id="CNCMedellin.co@HD" tvg-logo="https://i.imgur.com/J1f4fNq.png" group-title="Canales de Colombia",CNC Medellin
+http://138.94.3.106:8000/play/a02o/index.m3u8
 #EXTINF:-1 tvg-id="CNCPereira.co@SD" tvg-logo="https://i.imgur.com/5vJ0aXH.png" group-title="Canales de Colombia",CNC Pereira
 https://cloudvideo.servers10.com:8081/latinchaneltv/index.m3u8
 #EXTINF:-1 tvg-id="CNCSantanderdeQuilichao.co@SD" tvg-logo="https://i.imgur.com/LNl2o9q.jpg" group-title="Canales de Colombia",CNC Santander de Quilichao
@@ -1772,6 +1779,8 @@ http://45.5.118.152:8000/play/a03i/index.m3u8
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 #EXTINF:-1 tvg-id="CanaldelCongreso451.mx@SD" tvg-logo="https://i.imgur.com/xAC6gQO.png" group-title="Canales de México",Canal del Congreso 45.1
 https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8
+#EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Once_logo_2025.png" group-title="Canales de México",Canal Once
+https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 #EXTINF:-1 tvg-id="CBTVMichoacan.mx@SD" tvg-logo="https://i.imgur.com/oFeCIeD.png" group-title="Canales de México",CB TV Michoacan
 https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Cinelatino.cl" tvg-logo="https://i.imgur.com/2V0R0xT.png" group-title="Canales de México",Cinelatino
