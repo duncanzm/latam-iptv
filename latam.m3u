@@ -11,11 +11,15 @@ https://videostream.shockmedia.com.ar/hls/abtvbariloche/abtvbariloche.m3u8
 https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Canales de Argentina",AMC Latin America
 http://15.204.246.24:8080/AMCHD/index.m3u8
+#EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-logo="https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png" group-title="Canales de Argentina",AMC Series Latin America
+http://45.171.64.30:6060/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="Canales de Argentina",America TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 #EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar@SD" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="Canales de Argentina",Argentinisima Satelital
 https://stream1.sersat.com/hls/argentinisima.m3u8
+#EXTINF:-1 tvg-id="Aunar.ar@SD" tvg-logo="https://i.imgur.com/BfaCaZF.png" group-title="Canales de Argentina",Aunar
+http://190.128.214.97:64333/play/a057/index.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Canales de Argentina",AXN Latin America South
 http://181.78.12.119:16123/play/ch46/index.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Canales de Argentina",Azahares Radiovisual Multimedia
@@ -77,7 +81,7 @@ https://stream.arcast.com.ar/canal4esquel/canal4esquel/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal4Jujuy.ar@SD" tvg-logo="https://i.imgur.com/qB6I274.png" group-title="Canales de Argentina",Canal 4 Jujuy
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal4Posadas.ar@SD" tvg-logo="https://i.imgur.com/tElJr3e.png" group-title="Canales de Argentina",Canal 4 Posadas
-https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
+http://190.128.214.97:64333/play/a06l/index.m3u8
 #EXTINF:-1 tvg-id="Canal4SanJuan.ar@SD" tvg-logo="https://i.imgur.com/MsCnwRA.png" group-title="Canales de Argentina",Canal 4 San Juan
 https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal4Teleaire.ar@SD" tvg-logo="https://i.imgur.com/XyiNvbY.png" group-title="Canales de Argentina",Canal 4 Teleaire
@@ -203,8 +207,8 @@ https://cloud.tvomix.com/KPOPMIX/index.m3u8
 #EXTINF:-1 tvg-id="La100.ar@SD" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/CZJMM4BJVRFANO4VGMMYWSTEVE.png" group-title="Canales de Argentina",La 100
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar@SD" tvg-logo="https://i.pinimg.com/736x/2d/fa/25/2dfa25f5d2e4d5c19886a3a263706317.jpg" group-title="Canales de Argentina",Lamil35 TV
-#EXTVLCOPT:http-referrer=https://lamil35.streamingvideo.com.ar/
-https://streamingvideo.com.ar/hls/eea3c96df781e0a3.m3u8
+#EXTVLCOPT:http-referrer=https://www.lamil35.com.ar/
+https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 #EXTINF:-1 tvg-id="MasFM.ar@SD" tvg-logo="https://i.imgur.com/TJ4gWQM.png" group-title="Canales de Argentina",Mas FM
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-logo="https://i.imgur.com/sfd87LX.png" group-title="Canales de Argentina",Mercurio Noticias
@@ -247,6 +251,8 @@ https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8
 https://live.enhdtv.com:8081/radioiguazutv/index.m3u8
 #EXTINF:-1 tvg-id="Radiocanal.ar@SD" tvg-logo="https://i.ibb.co/NNyDWsz/download-8.png" group-title="Canales de Argentina",Radiocanal
 http://204.199.3.2/.m3u8
+#EXTINF:-1 tvg-id="RockPop.ar@SD" tvg-logo="https://fmrockandpop.com/images/ryp/R&P_Logo_web_207x112px.png" group-title="Canales de Argentina",Rock & Pop
+http://190.128.214.97:64333/play/a032/index.m3u8
 #EXTINF:-1 tvg-id="SanLuisPlus.ar@SD" tvg-logo="https://i.imgur.com/bGoGiry.png" group-title="Canales de Argentina",San Luis
 https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8
 #EXTINF:-1 tvg-id="SantaFeCanal.ar@SD" tvg-logo="https://i.imgur.com/C1mY5X4.png" group-title="Canales de Argentina",Santa Fe Canal
@@ -385,8 +391,6 @@ https://5ff3d9babae13.streamlock.net/aufymdjpjf/aufymdjpjf/playlist.m3u8
 https://stmv5.voxtvhd.com.br/canal74hd/canal74hd/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalChilote.cl@SD" tvg-logo="https://i.imgur.com/mdYIKyt.png" group-title="Canales de Chile",Canal Chilote
 https://videostream.chileservidores.com:8081/chiloe2/index.m3u8
-#EXTINF:-1 tvg-id="CanalCHVNoticias.cl@SD" tvg-logo="https://i.imgur.com/sx8Aaxr.png" group-title="Canales de Chile",Canal CHV Noticias
-https://xyktmobile00.s.gy/PPV929_CIV_NOTICIAS
 #EXTINF:-1 tvg-id="Canal.Claro.TV.cl" tvg-logo="https://images.pluto.tv/channels/68224482c5d53e1351aaf2f2/colorLogoPNG_1751655767455.png" group-title="Canales de Chile",Canal Claro
 http://168.196.127.137:6001/play/a04l/index.m3u8
 #EXTINF:-1 tvg-id="CanaldelSur.cl@SD" tvg-logo="https://i.imgur.com/NVLJBzy.png" group-title="Canales de Chile",Canal del Sur
@@ -537,6 +541,8 @@ https://v1.tustreaming.cl/margamargatv/index.m3u8
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-id="Mega2.cl@SD" tvg-logo="https://i.imgur.com/c1ME00r.png" group-title="Canales de Chile",Mega 2
 http://15.204.246.24:8080/Mega2HD/index.m3u8
+#EXTINF:-1 tvg-id="MegaFiccion.cl@SD" tvg-logo="https://i.imgur.com/aQdhJie.png" group-title="Canales de Chile",Mega Ficcion
+http://15.204.196.147:22880/MEGAFICCION-MEGAMEDIA-EE.UU-PROVEEDOR/index.m3u8
 #EXTINF:-1 tvg-id="MeganoticiasAhora.cl@SD" tvg-logo="https://i.imgur.com/JCVEqTc.png" group-title="Canales de Chile",Meganoticias Ahora
 http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8
 #EXTINF:-1 tvg-id="MiRadioTV.cl@SD" tvg-logo="https://i.imgur.com/XEpLWJw.png" group-title="Canales de Chile",Mi Radio TV
