@@ -229,9 +229,6 @@ https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbX
 https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal.Fox.Sports.(México).mx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Canales de Argentina",FOX Sports
 http://138.59.227.20:8000/play/a085/index.m3u8
-#EXTINF:-1 tvg-id="Canal.Fox.Sports.2.(México).mx" tvg-logo="https://i.imgur.com/oG7HzEf.png" group-title="Canales de Argentina",FOX Sports 2 (argentina)
-#EXTVLCOPT:http-referrer=https://mi.tv/
-https://zapster.trapemn.tv:1936/CD-LATAM/FoxSports2/playlist.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="Canales de Argentina",FX Latin America South
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/fx-key/chunks.m3u8
@@ -2384,7 +2381,7 @@ https://live-evg7.tv360.bitel.com.pe/bitel/teleselva/playlist.m3u8
 #EXTINF:-1 tvg-id="TelesystemTV.pe@SD" tvg-logo="https://i.imgur.com/CI4CNgL.jpeg" group-title="Canales de Perú",Telesystem TV
 https://live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisionTarapoto.pe@SD" tvg-logo="https://i.imgur.com/Dzen7sh.png" group-title="Canales de Perú",Television Tarapoto
-https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8
+http://45.5.57.58:8000/play/a038/index.m3u8
 #EXTINF:-1 tvg-id="TeveEmpresa.pe@SD" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/04/07/02/1775503150878/c34840061c94_480_270.png" group-title="Canales de Perú",Teve Empresa
 https://live-evg8.tv360.bitel.com.pe/bitel/tvempresaSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Tevesur.pe@SD" tvg-logo="https://i.imgur.com/LcZ2Hhd.jpeg" group-title="Canales de Perú",Tevesur
